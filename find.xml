@@ -1,0 +1,28 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project Files" />
+    <option name="defaultScopeName" value="Project Files" />
+    <option name="fromCursor" value="false" />
+    <option name="FIND_ORIGIN" value="entire_scope" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="pom.xml" />
+    <recentFileMasks>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.ant.xml</mask>
+      <mask>*.cs</mask>
+      <mask>module.html</mask>
+      <mask>*.java</mask>
+      <mask>*.json</mask>
+      <mask>*.properties</mask>
+      <mask>*.scss</mask>
+      <mask>*.sql</mask>
+      <mask>*.xml</mask>
+      <mask>*.js</mask>
+      <mask>pom.xml</mask>
+    </recentFileMasks>
+  </component>
+</application>

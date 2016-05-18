@@ -1,0 +1,9 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="JavaScript/Declaration/Split Declaration And Initialization" />
+    <ignoreAction name="JavaScript/Other/Replace Single-Quoted String with Double-Quoted String" />
+    <ignoreAction name="Language Injection/Inject language or reference" />
+    <ignoreAction name="JavaScript/Control Flow/Add Braces" />
+    <ignoreAction name="JavaScript/Conditional Operator/Flip If" />
+  </component>
+</application>

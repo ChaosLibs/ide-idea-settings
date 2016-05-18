@@ -1,0 +1,690 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>HtmlFormInputWithoutLabel</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ChangesBarApplicationComponent">
+    <watchForCollisions>true</watchForCollisions>
+    <showPopup>true</showPopup>
+    <addCommentEditor>true</addCommentEditor>
+    <addChangelistScope>false</addChangelistScope>
+    <expandChangelistScope>true</expandChangelistScope>
+    <closeFilesWhenSwitchingChangelist>false</closeFilesWhenSwitchingChangelist>
+    <openFilesWhenSwitchingChangelist>false</openFilesWhenSwitchingChangelist>
+    <openFilesInBackground>true</openFilesInBackground>
+  </component>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="chaos-eclipse" />
+  </component>
+  <component name="CopyAsHtmlConfiguration">
+    <option name="_addBorder" value="true" />
+    <option name="_includeWarningHighlights" value="true" />
+    <option name="_mimeTypes" value="3" />
+    <option name="_lineNosStartAt1" value="true" />
+    <option name="_lineNoType" value="follow" />
+    <option name="_unindent" value="true" />
+    <option name="_includePadding" value="true" />
+    <option name="_padding" value="3" />
+    <option name="_fontSizeType" value="follow" />
+    <option name="_fontSize" value="0" />
+    <option name="_tabsToSpaces" value="true" />
+    <option name="_tabSize" value="3" />
+  </component>
+  <component name="CppTools.Settings" gccPath="D:\tools\MinGW\bin\mingw32-gcc.exe" mingwToolsDir="D:\tools\MinGW\msys\1.0" msvcdir="C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC" defines="WIN32;NDEBUG;_WINDOWS;_MBCS;_AFXDLL;_WIN32" additionalIncludes="" launchGdbOnFailureCommand="$gdb$ --directory=&quot;c:/MingW/1.0/home/maxim/CF-C&quot;" gdbPath="D:\tools\MinGW\bin\gdb.exe" />
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="EXT_CONFIGURATION">
+      <value>
+        <option name="CVS_RSH" value="ssh" />
+        <option name="PRIVATE_KEY_FILE" value="" />
+        <option name="ADDITIONAL_PARAMETERS" value="" />
+        <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="false" />
+      </value>
+    </option>
+    <option name="SSH_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="LOCAL_CONFIGURATION">
+      <value>
+        <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+      </value>
+    </option>
+    <option name="PROXY_SETTINGS">
+      <value>
+        <option name="USE_PROXY" value="false" />
+        <option name="PROXY_HOST" value="" />
+        <option name="PROXY_PORT" value="1234" />
+        <option name="TYPE" value="0" />
+        <option name="LOGIN" value="" />
+        <option name="PASSWORD" value="" />
+      </value>
+    </option>
+    <option name="SSH_FOR_EXT_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="TIMEOUT" value="60" />
+    <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
+    <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="CHECKOUT_KEYWORD_SUBSTITUTION" />
+    <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
+    <option name="ENCODING" value="Default" />
+    <option name="USE_GZIP" value="false" />
+    <option name="DO_OUTPUT" value="false" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="SHOW_PATH" value="true" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CLASSLOADERS" value="true" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAsk" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.intellij.rt.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.yourkit.runtime.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="DependencyUISettings">
+    <option name="UI_FLATTEN_PACKAGES" value="false" />
+    <option name="UI_COMPACT_EMPTY_MIDDLE_PACKAGES" value="false" />
+    <option name="SCOPE_TYPE" value="file" />
+  </component>
+  <component name="ErrorReportConfigurable">
+    <option name="ITN_LOGIN" value="" />
+    <option name="ITN_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_ITN_PASSWORD" value="false" />
+    <option name="EMAIL" value="" />
+  </component>
+  <component name="ForgeConfiguration">
+    <option name="addonDir" value="D:\server\jboss-7-forge\addons" />
+  </component>
+  <component name="GwtSdkManager">
+    <gwt-sdk-list>
+      <gwt-sdk url="file://$TOOLS_HOME$/gwt-2.4.0" />
+    </gwt-sdk-list>
+  </component>
+  <component name="IntelliJadConfigComponent">
+    <config>
+      <a type="boolean">false</a>
+      <af type="boolean">false</af>
+      <always-exclude-recursively type="boolean">true</always-exclude-recursively>
+      <b type="boolean">false</b>
+      <cleanup-source-roots type="boolean">true</cleanup-source-roots>
+      <clear type="boolean">false</clear>
+      <clear-and-close-console-on-success type="boolean">true</clear-and-close-console-on-success>
+      <create-output-directory type="boolean">true</create-output-directory>
+      <d type="string">$PROJECT_OUT$/decompiled</d>
+      <dead type="boolean">false</dead>
+      <decompile-on-navigation type="string">On demand</decompile-on-navigation>
+      <decompile-to-memory type="boolean">false</decompile-to-memory>
+      <dis type="boolean">false</dis>
+      <exclusion-table-model type="table-model" model-class="net.stevechaloner.intellijad.config.ExclusionTableModel" content-types="string,boolean,boolean" />
+      <f type="boolean">false</f>
+      <ff type="boolean">false</ff>
+      <forced-decompile-to-memory type="boolean">true</forced-decompile-to-memory>
+      <i type="boolean">false</i>
+      <indentation type="integer">4</indentation>
+      <jad-path type="string">$TOOLS_HOME$/java/jad/jad.exe</jad-path>
+      <keep-decompiled-to-memory type="boolean">false</keep-decompiled-to-memory>
+      <l type="integer">64</l>
+      <lnc type="boolean">true</lnc>
+      <lradix type="integer">10</lradix>
+      <nl type="boolean">false</nl>
+      <nocast type="boolean">true</nocast>
+      <noclass type="boolean">false</noclass>
+      <nocode type="boolean">false</nocode>
+      <noconv type="boolean">false</noconv>
+      <noctor type="boolean">true</noctor>
+      <nodos type="boolean">false</nodos>
+      <nofd type="boolean">false</nofd>
+      <noinner type="boolean">false</noinner>
+      <nolvt type="boolean">false</nolvt>
+      <nonlb type="boolean">false</nonlb>
+      <o type="boolean">false</o>
+      <pa type="string" />
+      <pc type="string">_cls</pc>
+      <pe type="string">_ex</pe>
+      <pf type="string">_fld</pf>
+      <pl type="string">_lcl</pl>
+      <pm type="string">_mth</pm>
+      <pp type="string">_prm</pp>
+      <pv type="integer">3</pv>
+      <r type="boolean">false</r>
+      <radix type="integer">10</radix>
+      <read-only type="boolean">false</read-only>
+      <reformat-style type="string">Preferred-Style</reformat-style>
+      <s type="string">java</s>
+      <safe type="boolean">false</safe>
+      <sort type="boolean">false</sort>
+      <space type="boolean">false</space>
+      <stat type="boolean">false</stat>
+      <t type="boolean">false</t>
+      <use-project-specific-settings type="boolean">false</use-project-specific-settings>
+      <v type="boolean">false</v>
+    </config>
+  </component>
+  <component name="JPedalIDEA.PDFPlugin">
+    <PDF count="4" checkForUpdates="false" versionTested="">
+      <entry Path="http://www.jpedal.org/download/plugin/chapter01.pdf" Description="iText in Action (Manning) ch1" cachedFile="" />
+      <entry Path="http://www.jpedal.org/download/plugin/chapter03.pdf" Description="iText in Action (Manning) ch3" cachedFile="" />
+      <entry Path="http://www.jpedal.org/download/plugin/rcp-book-ch2.pdf" Description="Rich Client Programming (Prentice Hall) ch2" cachedFile="" />
+      <entry Path="http://java.sun.com/j2se/1.4/pdf/j2d-book.pdf" Description="Java Graphics2D reference" cachedFile="" />
+    </PDF>
+  </component>
+  <component name="LastSelectedPropertiesFileStore" lastSelectedFileUrl="file://D:/projects/lineg/lima/Broker/mule/res/lima-base.properties">
+    <entry context="file://D:/projects/lineg/lima/Broker/mule/app/flows" url="file://D:/projects/lineg/lima/Broker/mule/res/lima-base.properties" />
+    <entry context="file://D:/projects/lineg/lima/Broker/mule/app/flows/lima-service-context.xml" url="file://D:/projects/lineg/lima/Broker/mule/res/lima-base.properties" />
+  </component>
+  <component name="LocalHistoryConfiguration">
+    <option name="ADD_LABEL_ON_RUNNING" value="false" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="false" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="false" />
+  </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="$TOOLS_HOME$/nodejs/node.exe" version="0.12.0" last-modified="1425387138502" />
+  </component>
+  <component name="PluginManagerConfigurable" proportions="" version="1">
+    <option name="AVAILABLE_SORT_COLUMN" value="2" />
+    <option name="INSTALLED_SORT_COLUMN" value="1" />
+    <option name="CART_SORT_COLUMN" value="0" />
+    <option name="AVAILABLE_SORT_COLUMN_ORDER" value="1" />
+    <option name="INSTALLED_SORT_COLUMN_ORDER" value="0" />
+    <option name="CART_SORT_COLUMN_ORDER" value="1" />
+    <available>
+      <option name="myProportion" value="109:70:110:109" />
+    </available>
+    <installed>
+      <option name="myProportion" value="51:499:45" />
+    </installed>
+  </component>
+  <component name="PropertiesSeparatorManager">
+    <file url="resourceBundle:file://D:/projects/chaos/base/core/gen/inc/chaos/error/DaoEx" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/vorwerk/via-spain/integration-console-parent/mule/src/main/resources/META-INF/spring" separator="\u002f" />
+    <file url="resourceBundle:file://D:/projects/chain/display/core/gen/chain/modules/display/display-lang" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/main/core/gen/chain/modules/main/data/MainEntity" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/display/core/src/chain/modules/display/domain/DisplayEntity" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chaos/base/core/src/inc/chaos/bean/BeanEx" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chain/unicat/core/src/chain/modules/unicat/error/CreateBidError" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chaos/base/core/src/inc/chaos/error/DaoEx" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chaos/base/core/gen/inc/chaos/io/file/FileEx" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chain/stock/web/src/chain/modules/stock/web/bundle/stock-application" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/base/core/src/chain/error/MainModuleError" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chaos/base/core/gen/inc/chaos/bean/BeanEx" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chain/base/core/src/chain/error/ChainError" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chain/base/core/gen/chain/modules/main/error/MsgLookUpMain" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chain/unicat/web/src/chain/client/taglib/ChainTag" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/base/core/gen/chain/modules/main/main-lang" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/base/core/gen/chain/error/MainModuleError" separator="\u005f" />
+    <file url="resourceBundle:file://D:/projects/chain/unicat/core/src/chain/modules/unicat/unicat-lang" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/display/portlet/gen/chain/modules/display/front/portlet/ShowCasePortlet" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/display/core/src/chain/modules/display/display-lang" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/unicat/core/gen/chain/modules/unicat/unicat-lang" separator="\u002e" />
+    <file url="resourceBundle:file://D:/projects/chain/base/core/gen/chain/error/DataAccessError" separator="\u005f" />
+  </component>
+  <component name="PsiViewerSettings">
+    <option name="type" value="CSS file" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FIELD" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_METHOD" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_VARIABLE" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_PARAMETER_REPLACE_FIELDS_WITH_GETTERS" value="1" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+    <option name="INTRODUCE_PARAMETER_CREATE_FINALS" value="false" />
+    <option name="RENAME_INHERITORS" value="false" />
+    <option name="RENAME_VARIABLES" value="false" />
+  </component>
+  <component name="RooConfiguration" rooHome="D:\tools\spring-roo" />
+  <component name="SelectProjectTemplateSettings">
+    <option name="EXPERT_MODE" value="true" />
+    <option name="LAST_TEMPLATE" value="Java/Java" />
+  </component>
+  <component name="Struts Assistant">
+    <option name="autoscrollToSource" value="false" />
+    <option name="autoscrollFromSource" value="false" />
+  </component>
+  <component name="SvgViewer.Settings">
+    <option name="PLUGIN_ENABLED" value="true" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/postecon/chain" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/games" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/lib" />
+        <option value="http://172.27.11.18:3030/projects/core/svn" />
+        <option value="http://krfeaas20.emea.vorwerk.org:3030/projects/core/svn" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/babel" />
+        <option value="svn://svn.ahu.de/LIMA" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/site/trunk" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/shade/desk/trunk" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/black/trunk" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="svn+ssh://server.enigma.yukawa.de/usr/local/code/version/svn/chaos/lib" />
+        <option value="svn+ssh://server.enigma.yukawa.de/usr/local/code/version/svn/postecon/chain" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/postecon/chain" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/games" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/lib" />
+        <option value="http://172.27.11.18:3030/projects/core/svn" />
+        <option value="http://krfeaas20.emea.vorwerk.org:3030/projects/core/svn" />
+        <option value="http://krfeaas20.emea.vorwerk.org:3030/projects" />
+        <option value="http://krfeaas20.emea.vorwerk.org:3030/projects/core" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/babel" />
+        <option value="svn://svn.ahu.de/LIMA" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/site/trunk" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/babel/trunk" />
+        <option value="https://jkinect.svn.sourceforge.net/svnroot/jkinect" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/shade/desk/trunk" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/black/trunk" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/lib/trunk" />
+        <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/postecon/chain/trunk" />
+      </list>
+    </option>
+  </component>
+  <component name="SvnBranchMapperManager">
+    <option name="myMapping">
+      <map>
+        <entry key="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/babel/trunk">
+          <value>
+            <set>
+              <option value="D:\projects\babel" />
+            </set>
+          </value>
+        </entry>
+        <entry key="svn+ssh://78.46.65.49/usr/local/code/version/svn/chaos/lib/trunk">
+          <value>
+            <set>
+              <option value="D:\projects\chaos" />
+            </set>
+          </value>
+        </entry>
+        <entry key="svn+ssh://78.46.65.49/usr/local/code/version/svn/postecon/chain/trunk">
+          <value>
+            <set>
+              <option value="D:\projects\chain" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="TeamCityHistory">
+    <option name="HISTORY" value="http://service.yukawa.de:3434/team&amp;^%$#@shade@#$%^&amp;http://localhost:8080/team&amp;^%$#@admin" />
+  </component>
+  <component name="WebServicesPluginSettings" SelectedBinding="JAXB 2.0" WebServicesUrlPathPrefix="/jbossws/services" ServerPort="3333" PathToXFire="D:\tools\cxf-2.4.0" PathToJBossWS="D:\server\jboss-7.1.1" ASK_TO_INSTALL_SOAPUI="false">
+    <StubPackage>chain.modules.display.client.ws</StubPackage>
+    <StubPackage>com.vorwerk.integration.services.impl.sforce.client</StubPackage>
+    <StubPackage>com.vorwerk.integration.services.impl.zvis.client</StubPackage>
+    <StubPackage>com.vorwerk.integration.services.impl.uniserv.client</StubPackage>
+    <StubPackage>com.vorwerk.integration.services.impl.uniserv</StubPackage>
+    <StubPackage>test.ws</StubPackage>
+    <StubUrl>http://localhost:3333/chain/display/ws/DisplayWebService?wsdl</StubUrl>
+    <StubUrl>file://$CHAIN_HOME$/display/client/res/wsdl/DisplayWebService.wsdl</StubUrl>
+    <StubUrl>file://$CHAIN_HOME$/display/client/src/wsdl/DisplayWebService.wsdl</StubUrl>
+    <StubUrl>http://localhost:3333/chain/display/ws/DisplayWebService?wsdl</StubUrl>
+    <StubUrl>file:/D:/projects/vorwerk/com.vorwerk.integration/forge/salesforce-client/temp/enterprise.wsdl</StubUrl>
+    <StubUrl>http://localhost:9090/axis2/services/InternationalPostalValidation?wsdl</StubUrl>
+    <StubUrl>file:/D:/projects/vorwerk/com.vorwerk.integration/forge/uniserv-client/src/main/resources/wsdl/InternationalPostalValidation.wsdl</StubUrl>
+    <StubUrl>file:/D:/projects/vorwerk/com.vorwerk.integration/integration-forge-parent/uniserv-client/src/main/wsdl/InternationalPostalValidation.wsdl</StubUrl>
+    <StubUrl>http://192.168.0.31:9090/axis2/services/InternationalPostalValidation?wsdl</StubUrl>
+    <StubUrl>http://localhost:9090/axis2/services/InternationalPostalValidation?wsdl</StubUrl>
+    <JAXBUrl>file:/D:/projects/vorwerk/com.vorwerk.integration/forge/local-face/src/main/resources/wsdl/zvis_area_assignment_r3.wsdl</JAXBUrl>
+  </component>
+  <component name="XslFoSettings">
+    <option name="fopInstallationDir" value="" />
+    <option name="userConfigLocation" value="D:\projects\chain\survey\mod\src\main\resources\report\fop.xconf" />
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="Catch Statement Body" />
+            <item index="1" class="java.lang.String" itemvalue="Singleton" />
+            <item index="2" class="java.lang.String" itemvalue="Mule Config" />
+            <item index="3" class="java.lang.String" itemvalue="Maven POM" />
+          </list>
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <resource url="urn:jboss:domain:osgi:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-osgi_1_0.xsd" />
+    <resource url="urn:jboss:domain:osgi:1.2" location="$JBOSS_HOME$/docs/schema/jboss-as-osgi_1_2.xsd" />
+    <resource url="urn:jboss:domain:osgi:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-osgi_1_1.xsd" />
+    <resource url="urn:jboss:domain:mail:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-mail_1_0.xsd" />
+    <resource url="http://www.springframework.org/schema/context/spring-context-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/1dc30c50_spring-context-3.1.xsd" />
+    <resource url="http://www.springframework.org/schema/lang/spring-lang.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/85504c65_spring-lang.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/jetty/3.2/mule-jetty.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/2c1ee9b_mule-jetty.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/a32f63cf_spring-beans-3.0.xsd" />
+    <resource url="http://cxf.apache.org/schemas/configuration/parameterized-types.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/2b84f58e_parameterized-types.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/json/3.2/mule-json.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/11be66d5_mule-json.xsd" />
+    <resource url="urn:jboss:pojo:7.0" location="$JBOSS_HOME$/docs/schema/jboss-pojo_7_0.xsd" />
+    <resource url="urn:jboss:domain:datasources:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-datasources_1_0.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/a33d7b50_spring-beans-3.1.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/jms/3.3/mule-jms.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/875b9f3a_mule-jms.xsd" />
+    <resource url="http://www.adobe.com/xml/dtds/cross-domain-policy.dtd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/6b46bc32_cross-domain-policy.dtd" />
+    <resource url="http://www.springframework.org/schema/util/spring-util-3.2.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/ddbdc277_spring-util-3.2.xsd" />
+    <resource url="urn:jboss:domain:jsr77:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jsr77_1_0.xsd" />
+    <resource url="http://www.springframework.org/schema/jee/spring-jee-3.2.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/752559f1_spring-jee-3.2.xsd" />
+    <resource url="urn:jboss:domain:logging:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-logging_1_1.xsd" />
+    <resource url="http://www.springframework.org/schema/aop/spring-aop.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/7ab94007_spring-aop.xsd" />
+    <resource url="urn:jboss:domain:logging:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-logging_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/vm/3.2/mule-vm.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/3383deb3_mule-vm.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/334543e7_spring-beans.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/http/3.2/mule-http.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/a0922615_mule-http.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.2/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/b0c2127b_mule-schemadoc.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/ftp/3.2/mule-ftp.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/91183adb_mule-ftp.xsd" />
+    <resource url="urn:jboss:domain:cmp:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-cmp_1_0.xsd" />
+    <resource url="http://www.springframework.org/schema/tx/spring-tx.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/bc20ae51_spring-tx.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/file/3.2/mule-file.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/d1aa90fd_mule-file.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/ws/3.2/mule-ws.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/de1a5a7d_mule-ws.xsd" />
+    <resource url="urn:jboss:domain:configadmin:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-configadmin_1_0.xsd" />
+    <resource url="http://www.chaosinc.de/js/office/tech" location="$CHAOS_HOME$/office/base/core/xml/schema/office-tech.xsd" />
+    <resource url="http://maven.apache.org/xsd/assembly-1.1.2.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/48b8f268_assembly-1.1.2.xsd" />
+    <resource url="urn:jboss:domain:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-config_1_1.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/pattern/3.1/mule-pattern.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/3a5fe0fc_mule-pattern.xsd" />
+    <resource url="urn:jboss:domain:1.2" location="$JBOSS_HOME$/docs/schema/jboss-as-config_1_2.xsd" />
+    <resource url="http://www.springframework.org/schema/tool/spring-tool-3.2.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/5f7618a3_spring-tool-3.2.xsd" />
+    <resource url="urn:jboss:domain:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-config_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/servlet/3.2/mule-servlet.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/957e13bb_mule-servlet.xsd" />
+    <resource url="http://cxf.apache.org/schemas/core.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/263a46b3_core.xsd" />
+    <resource url="urn:jboss:domain:security:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-security_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/jersey/3.2/mule-jersey.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/1fb16025_mule-jersey.xsd" />
+    <resource url="http://www.springframework.org/schema/util/spring-util.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/35dd368d_spring-util.xsd" />
+    <resource url="urn:jboss:domain:jpa:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jpa_1_0.xsd" />
+    <resource url="urn:jboss:domain:security:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-security_1_1.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/tcp/3.2/mule-tcp.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/5b36513b_mule-tcp.xsd" />
+    <resource url="http://www.chaosinc.de/xml/chaos/core" location="$CHAOS_HOME$/office/base/core/js/chaos/sys/core/core.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/tcp/3.3/mule-tcp.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/3d141ada_mule-tcp.xsd" />
+    <resource url="urn:jboss:service:7.0" location="$JBOSS_HOME$/docs/schema/jboss-service_7_0.xsd" />
+    <resource url="http://www.chaosinc.de/js/office/projects" location="$CHAOS_HOME$/office/base/core/xml/schema/office-projects.xsd" />
+    <resource url="http://www.springframework.org/schema/tool/spring-tool-3.0.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/5f59e9a1_spring-tool-3.0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/cxf/3.3/mule-cxf.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/ac9af8da_mule-cxf.xsd" />
+    <resource url="urn:jboss:domain:ejb3:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-ejb3_1_0.xsd" />
+    <resource url="urn:jboss:domain:jca:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jca_1_0.xsd" />
+    <resource url="urn:jboss:domain:ejb3:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-ejb3_1_1.xsd" />
+    <resource url="urn:jboss:domain:ejb3:1.2" location="$JBOSS_HOME$/docs/schema/jboss-as-ejb3_1_2.xsd" />
+    <resource url="urn:jboss:domain:jaxrs:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jaxrs_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/core/3.3/mule.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/21671d9e_mule.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/core/3.2/mule.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/2d1dac7f_mule.xsd" />
+    <resource url="urn:jboss:domain:jca:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-jca_1_1.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/ws/3.1/mule-ws.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/ef9753fc_mule-ws.xsd" />
+    <resource url="urn:jboss:jbossws-jaxws-config:4.0" location="$JBOSS_HOME$/docs/schema/jbossws-jaxws-config_4_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/jms/3.2/mule-jms.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/a57dd59b_mule-jms.xsd" />
+    <resource url="urn:jboss:domain:messaging:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-messaging_1_1.xsd" />
+    <resource url="urn:jboss:ejb-client:1.0" location="$JBOSS_HOME$/docs/schema/jboss-ejb-client_1_0.xsd" />
+    <resource url="urn:jboss:domain:remoting:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-remoting_1_1.xsd" />
+    <resource url="urn:jboss:ejb-client:1.1" location="$JBOSS_HOME$/docs/schema/jboss-ejb-client_1_1.xsd" />
+    <resource url="urn:jboss:domain:messaging:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-messaging_1_0.xsd" />
+    <resource url="urn:jboss:domain:remoting:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-remoting_1_0.xsd" />
+    <resource url="urn:jboss:domain:weld:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-weld_1_0.xsd" />
+    <resource url="http://www.springframework.org/schema/context/spring-context.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/a93b54e7_spring-context.xsd" />
+    <resource url="urn:jboss:domain:web:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-web_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/test/3.2/mule-test.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/447c5aa9_mule-test.xsd" />
+    <resource url="urn:jboss:domain:web:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-web_1_1.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/jdbc/3.2/mule-jdbc.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/8af672bb_mule-jdbc.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/pattern/3.2/mule-pattern.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/fef1c31b_mule-pattern.xsd" />
+    <resource url="urn:jboss:domain:naming:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-naming_1_1.xsd" />
+    <resource url="http://www.springframework.net/schema/objects/spring-objects-1.1.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/b0cb0727_spring-objects-1.1.xsd" />
+    <resource url="http://activemq.apache.org/schema/core/activemq-core.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/356fee2_activemq-core.xsd" />
+    <resource url="http://www.springframework.org/schema/tool/spring-tool-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/5f680122_spring-tool-3.1.xsd" />
+    <resource url="urn:jboss:domain:ee:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-ee_1_0.xsd" />
+    <resource url="urn:jboss:domain:naming:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-naming_1_0.xsd" />
+    <resource url="urn:jboss:cli:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-cli_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/core/3.1/mule.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/38d43b60_mule.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/ajax/3.2/mule-ajax.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/a91eb745_mule-ajax.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/management/3.2/mule-management.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/64a681cb_mule-management.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans-3.2.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/a34b92d1_spring-beans-3.2.xsd" />
+    <resource url="urn:jboss:domain:jaxr:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-jaxr_1_1.xsd" />
+    <resource url="urn:jboss:domain:jaxr:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jaxr_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/quartz/3.2/mule-quartz.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/48dfdf7b_mule-quartz.xsd" />
+    <resource url="http://www.directwebremoting.org/schema/spring-dwr-2.0.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/72222f7b_spring-dwr-2.0.xsd" />
+    <resource url="urn:jboss:domain:threads:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-threads_1_0.xsd" />
+    <resource url="http://maven.apache.org/xsd/component-1.1.2.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/2c089dc7_component-1.1.2.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/http/3.3/mule-http.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/fa6d9056_mule-http.xsd" />
+    <resource url="urn:jboss:domain:threads:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-threads_1_1.xsd" />
+    <resource url="urn:jboss:domain:jdr:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jdr_1_0.xsd" />
+    <resource url="urn:jboss:domain:jmx:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-jmx_1_1.xsd" />
+    <resource url="urn:jboss:domain:jacorb:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jacorb_1_0.xsd" />
+    <resource url="urn:jboss:domain:jmx:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jmx_1_0.xsd" />
+    <resource url="urn:jboss:domain:jacorb:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-jacorb_1_1.xsd" />
+    <resource url="urn:jboss:domain:xts:1.0" location="$JBOSS_HOME$/docs/schema/jboss-xts.xsd" />
+    <resource url="http://www.springframework.org/schema/jee/spring-jee.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/565f9b07_spring-jee.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/cxf/3.2/mule-cxf.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/cabd2f3b_mule-cxf.xsd" />
+    <resource url="urn:jboss:domain:sar:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-sar_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.3/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/9863e8da_mule-schemadoc.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.1/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/c9203c1c_mule-schemadoc.xsd" />
+    <resource url="http://www.springframework.org/schema/context/spring-context-3.0.xsd" location="D:/projects/_ide/.IntelliJIdea13/system/extResources/1db4f4cf_spring-context-3.0.xsd" />
+    <resource url="urn:jboss:domain:pojo:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-pojo_1_0.xsd" />
+    <resource url="urn:jboss:domain:modcluster:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-mod-cluster_1_0.xsd" />
+    <resource url="urn:jboss:domain:transactions:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-txn_1_0.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/xml/3.2/mule-xml.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/d48ef8fb_mule-xml.xsd" />
+    <resource url="urn:jboss:domain:transactions:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-txn_1_1.xsd" />
+    <resource url="urn:jboss:messaging-deployment:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-messaging-deployment_1_0.xsd" />
+    <resource url="urn:jboss:domain:jgroups:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-jgroups_1_1.xsd" />
+    <resource url="urn:jboss:domain:infinispan:1.2" location="$JBOSS_HOME$/docs/schema/jboss-as-infinispan_1_2.xsd" />
+    <resource url="urn:jboss:domain:deployment-scanner:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-deployment-scanner_1_0.xsd" />
+    <resource url="urn:jboss:domain:infinispan:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-infinispan_1_1.xsd" />
+    <resource url="urn:jboss:domain:deployment-scanner:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-deployment-scanner_1_1.xsd" />
+    <resource url="urn:jboss:domain:jgroups:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-jgroups_1_0.xsd" />
+    <resource url="urn:jboss:domain:infinispan:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-infinispan_1_0.xsd" />
+    <resource url="urn:jboss:domain:resource-adapters:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-resource-adapters_1_0.xsd" />
+    <resource url="urn:jboss:domain:webservices:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-webservices_1_1.xsd" />
+    <resource url="http://cxf.apache.org/schemas/configuration/cxf-beans.xsd" location="D:/projects/_ide/.IntelliJIdea12/system/extResources/5b196030_cxf-beans.xsd" />
+    <resource url="urn:jboss:domain:webservices:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-webservices_1_0.xsd" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://schemas.openxmlformats.org/spreadsheetml/2006/main" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+    <ignored-resource url="http://schemas.openxmlformats.org/officeDocument/2006/relationships" />
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Ignore spaces" />
+  <component name="org.intellij.doctree.ApplicationDocs">
+    <Documents>
+      <dir name="Application" root="true">
+        <dir name="Java" description="Sun Java">
+          <dir name="JDK API">
+            <doc name="JDK1.5.0" url="http://java.sun.com/j2se/1.5.0/docs/api/index.html" />
+            <doc name="JDK1.4.2" url="http://java.sun.com/j2se/1.4.2/docs/api/index.html" />
+            <doc name="JDK1.3" url="http://java.sun.com/j2se/1.3/docs/api/index.html" />
+          </dir>
+        </dir>
+        <dir name="Jetbrains">
+          <doc name="Forums" url="http://intellij.net/forums/index.jspa" />
+          <doc name="Jira" url="http://jetbrains.net/jira" />
+          <doc name="IDEA EAP" url="http://intellij.net/" />
+          <doc name="EAP" url="http://www.intellij.net" description="IDEA Early Access" />
+          <doc name="IDEA Windows Boost" url="http://blogs.jetbrains.com/idea/2006/12/boosting-intellij-idea-performance-on-windows-systems/" />
+        </dir>
+        <dir name="MPS">
+          <doc name="EAP Dashboard" url="http://www.jetbrains.net/confluence/display/MPS" />
+          <doc name="Forum (Jetrbains)" url="http://intellij.net/forums/category.jspa?categoryID=19" />
+          <doc name="MPS Blog" url="http://www.sergeydmitriev.com/mps/blog/" description="Sergeys MPS Blog" />
+          <doc name="Whole" url="http://whole.sourceforge.net/Screenshots.html" description="The Whole Platform is a technology for engineering the production of software." />
+          <doc name="SyMade" url="http://www.symade.org/" />
+          <doc name="When visionaries are too much in advance." url="http://tnlessone.wordpress.com/2007/05/15/when-visionaries-are-too-much-in-advance" />
+          <doc name="MIA" url="http://www.mia-software.com" />
+          <doc name="SubText" url="http://www.subtextual.org/demo1.html" />
+          <doc name="Alice" url="http://www.alice.org" />
+          <doc name="Mozart" url="http://mozart-dev.sourceforge.net/" />
+          <doc name="Konstantins Blog" url="http://solomatov.wordpress.com/" />
+        </dir>
+        <dir name="ChaosInc">
+          <doc name="ChaosCoce" url="D:\projects\blacklib\chaos_code\web\index.htm" />
+        </dir>
+        <dir name="web">
+          <dir name="js" description="JavaScript">
+            <doc name="Scriptaculous Wiki" url="http://wiki.script.aculo.us" />
+            <doc name="Overlib" url="http://www.bosrup.com/web/overlib/" />
+            <doc name="OverLib TestRange" url="http://www.macridesweb.com/oltest/" />
+            <doc name="ProtoType" url="http://www.prototypejs.org/" />
+            <doc name="ProtoType Using" url="http://www.sergiopereira.com/articles/prototype.js.html" />
+            <doc name="Mr. Proto" url="http://www.xilinus.com/" />
+            <doc name="DOM Loading Tips" url="http://tanny.ica.com/ica/tko/tkoblog.nsf/dx/domcontentloaded-event-for-browsers" />
+            <doc name="DOM inside" url="http://www-128.ibm.com/developerworks/xml/library/x-matters41.html" />
+            <doc name="DHTML Js Book" url="http://www.hell.org.ua/Docs/oreilly/webprog/DHTML_javascript/" />
+          </dir>
+          <dir name="tags">
+            <doc name="AJAX Tags (SourceForge)" url="http://ajaxtags.sourceforge.net/" />
+            <doc name="LoopTagStatus (JSP Standard Tag Library API Documents)" url="http://www.jajakarta.org/taglibs/standard-1.1/en/doc/api/javax/servlet/jsp/jstl/core/LoopTagStatus.html" description="JSTL LoopTag Status of core:forEach" />
+          </dir>
+          <dir name="jsp(x)" description="Java Server Pages (jsp, tag, jspx, tagx)">
+            <doc name="JSP Wiki" url="http://jspwiki.org" />
+          </dir>
+          <dir name="css">
+            <doc name="CSS Bugs IE" url="http://css.nu/pointers/bugs-ie.html" />
+          </dir>
+          <doc name="Echo 2" url="http://www.nextapp.com/platform/echo2/echo/" />
+          <doc name="Http ResponseCodes" url="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" />
+          <doc name="SelfHtml" url="http://de.selfhtml.org/" />
+          <dir name="echo">
+            <doc name="Components" url="http://wiki.nextapp.com/echowiki/WritingYourOwnComponentPeersPart1" />
+            <doc name="drag + drop" url="http://ensode.net/echo2_drag_drop.html" />
+          </dir>
+          <doc name="Barely Fitz - Usability" url="http://www.barelyfitz.com" />
+          <doc name="Firebug WIKI" url="http://getfirebug.com/wiki/index.php/Main_Page" />
+        </dir>
+        <dir name="build">
+          <doc name="Maven 2" url="http://maven.apache.org/" />
+          <doc name="Maven Plugs" url="http://maven.apache.org/plugins/index.html" />
+          <doc name="Ant" url="http://ant.apache.org/manual/index.html" />
+        </dir>
+        <dir name="conatiner">
+          <dir name="IoC">
+            <doc name="Spring" url="http://www.springframework.org/" />
+            <doc name="Spring + Swing" url="https://www6.software.ibm.com/developerworks/education/j-springswing/" description="IBM HelpDesk Spring + Swing" />
+          </dir>
+          <dir name="JMX">
+            <doc name="Jboss - JMX - MicroKernel" url="http://docs.jboss.org/jbossas/jboss4guide/r1/html/ch2.chapter.html#d0e3460" />
+          </dir>
+          <dir name="JBoss">
+            <doc name="JBoss - AppServer Guide" url="http://docs.jboss.org/jbossas/jboss4guide/r1/html/index.html" />
+            <doc name="JBoss - Wiki" url="http://wiki.jboss.org/wiki/Wiki.jsp?page=Main" />
+          </dir>
+          <dir name="ESB">
+            <doc name="Mule Message Routing" url="http://www.infoq.com/articles/mule-message-routing" />
+            <doc name="Mule Transports" url="http://mule.1045714.n5.nabble.com/Mule-2-x-User-Guide-gt-Configuring-a-Transport-td2738099.html" />
+          </dir>
+        </dir>
+        <dir name="persist">
+          <doc name="SqlMaps" url="http://ibatis.apache.org/" />
+          <dir name="database">
+            <doc name="ora sql" url="http://www.adp-gmbh.ch/ora/sql/" />
+          </dir>
+          <doc name="Sql in Form" url="http://www.sqlinform.com/" />
+        </dir>
+        <dir name="graphic">
+          <doc name="Java2D AffTarnsaltions" url="http://www.developer.com/tech/article.php/626051" />
+          <dir name="themes" />
+          <doc name="Gnome Themes" url="http://art.gnome.org/themes/metacity" />
+          <doc name="Nifty Wiki" url="http://sourceforge.net/apps/mediawiki/nifty-gui/index.php?title=Main_Page" />
+          <dir name="icon">
+            <doc name="Loader Icons" url="http://www.ajaxload.info/" />
+          </dir>
+        </dir>
+        <dir name="util">
+          <doc name="commons-validation" url="http://jakarta.apache.org/commons/validator/" />
+          <doc name="SqlInForm" url="http://www.sqlinform.com/free_online_sw.html" />
+        </dir>
+        <dir name="work">
+          <dir name="MT">
+            <doc name="Build IX" url="https://bigbuildix.mt-ag.com" />
+            <doc name="MT" url="http://www.mt-ag.com" />
+            <doc name="MT-Intra" url="http://www.mt-ag.com" />
+          </dir>
+        </dir>
+        <dir name="chain">
+          <dir name="demos">
+            <dir name="DBB">
+              <doc name="DBB Home" url="http://www.deutsche-bauherrenberatung.de/FS_markt.html" description="DeutscheBauherrenBeratung" />
+            </dir>
+          </dir>
+        </dir>
+        <dir name="swing">
+          <doc name="Look and Feel Archi" url="http://java.sun.com/products/jfc/tsc/articles/architecture/" />
+          <doc name="Printing JTables" url="http://java.sun.com/developer/JDCTechTips/2005/tt0308.html#1" />
+        </dir>
+        <dir name="xml">
+          <doc name="JaxB inofficel Guide" url="https://jaxb.dev.java.net/guide/" />
+        </dir>
+      </dir>
+    </Documents>
+  </component>
+</application>

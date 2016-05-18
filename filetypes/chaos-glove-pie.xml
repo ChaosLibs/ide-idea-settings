@@ -1,0 +1,19 @@
+<filetype binary="false" description="AA Glvoe PIE" name="chaos-glove-pie">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="//" />
+      <option name="COMMENT_START" value="/*" />
+      <option name="COMMENT_END" value="*/" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+      <option name="HAS_PARENS" value="true" />
+    </options>
+    <keywords keywords="else;end;endif;if;then" ignore_case="true" />
+    <keywords2 keywords="key;keyboard;nunchuk;wiimote" />
+  </highlighting>
+  <extensionMap>
+    <mapping ext="pie" />
+  </extensionMap>
+</filetype>

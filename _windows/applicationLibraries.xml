@@ -1,0 +1,32 @@
+<application>
+  <component name="libraryTable">
+    <library name="chaos-sys-test" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://D:/projects/chaos/sys/test/lib/jasmine" />
+          <item url="file://D:/projects/chaos/sys/test/src/main/js/SysTestApi.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://D:/projects/chaos/sys/test/lib/jasmine" />
+        <root url="file://D:/projects/chaos/sys/test/src/main/js/SysTestApi.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="sencha-touch-2" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="ExtJS 4.2" />
+        <sourceFilesUrls>
+          <item url="file://D:/projects/chain/app/nsk/aip/sencha/touch/src" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://D:/projects/chain/app/nsk/aip/sencha/touch/src" />
+        <root url="file://$SENCHA_TOUCH$/sencha-touch-all.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>

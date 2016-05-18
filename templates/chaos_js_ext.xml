@@ -1,0 +1,10 @@
+<templateSet group="chaos.js.ext">
+  <template name="extClass" value="/**&#10; * @class $PACKAGE$.$NAME$&#10; * @extends $EXTENDS_FQN$&#10; */&#10;Ext.define('$PACKAGE$.$NAME$', {&#10;    extend: '$EXTENDS_FQN$',&#10;    config : {} &#10;    $END$      &#10;});" description="Ext.define" toReformat="false" toShortenFQNames="true">
+    <variable name="PACKAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXTENDS_FQN" expression="jsQualifiedClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,9 @@
+<toolSet name="CTRL">
+  <tool name="GlovePie" description="GlovePIE using current file" showInMainMenu="true" showInEditor="true" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="D:\projects\games\ctrl\tools\GlovePIE045Free\PIEFree.exe" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="D:/projects/games/ctrl/tools/GlovePIE045Free" />
+    </exec>
+  </tool>
+</toolSet>

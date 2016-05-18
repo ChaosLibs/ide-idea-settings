@@ -1,0 +1,22 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="IS_VIRTUAL_SPACE" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\btodo\b\s\[ww\].*">
+      <option name="FOREGROUND" value="31a1bc" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="31a1bc" />
+    </pattern>
+    <filter name="ww">
+      <pattern index="1" />
+    </filter>
+  </component>
+</application>

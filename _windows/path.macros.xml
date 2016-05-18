@@ -1,0 +1,22 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="GLOVE_PIE_HOME" value="D:/projects/games/ctrl/tools/GlovePIE045Free" />
+    <macro name="JBOSS7_HOME" value="D:/server/jboss-7.1.1" />
+    <macro name="JBOSS_HOME" value="D:/server/jboss-7.1.1" />
+    <macro name="KOTLIN_BUNDLED" value="D:\tools\idea-2016.1\plugins\Kotlin\kotlinc" />
+    <macro name="LIFERAY6_HOME" value="D:/server/liferay-portal-6" />
+    <macro name="MAVEN_REPOSITORY" value="D:/projects/_lib/jars" />
+    <macro name="MVN_REPOS" value="D:/projects/_lib/jars" />
+    <macro name="NPM_CORDOVA" value="%USERHOME%/AppData/Roaming/npm" />
+    <macro name="PROJECT_OUT" value="D:/projects/_out" />
+    <macro name="SENCHA_CMD" value="D:/tools/sencha-cmd-6.0.2.14" />
+    <macro name="SENCHA_TOUCH" value="D:/tools/sencha-touch-2.4.2" />
+    <macro name="TOOLS_HOME" value="D:/tools" />
+    <ignoredMacro name="CHAIN_HOME" />
+    <ignoredMacro name="CHAOS_HOME" />
+    <ignoredMacro name="JMONKEY_HOME" />
+    <ignoredMacro name="JBOSS" />
+    <ignoredMacro name="IDEA_HOME" />
+    <ignoredMacro name="JBOSS_423GA" />
+  </component>
+</application>
