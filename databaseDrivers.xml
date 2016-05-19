@@ -1,69 +1,61 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="141+">
-    <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
+    <driver id="h2.unified" name="H2" dialect="H2">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="sybase.ase" name="Sybase (Native)" dialect="Sybase">
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="37f6ebf2-2447-44dc-aa6c-370308a600a6" name="chain@localhost driver" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
+    <driver id="37f6ebf2-2447-44dc-aa6c-370308a600a6" name="chain@localhost driver" dialect="MySQL" driver-class="org.gjt.mm.mysql.Driver" icon="AllIcons.Providers.Mysql">
       <artifact name="MySQL Connector/J" />
       <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
       <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:identifier}&gt;]" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
       <property name="zeroDateTimeBehavior" value="convertToNull" />
       <property name="tinyInt1isBit" value="false" />
       <property name="characterEncoding" value="utf8" />
       <property name="characterSetResults" value="utf8" />
       <property name="yearIsDateType" value="false" />
       <library>
-        <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.3/mysql-connector-java-5.1.3.jar</url>
+        <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar</url>
       </library>
-    </driver>
-    <driver id="sybase.jtds" name="Sybase (jTds)" dialect="Sybase">
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
-      <option name="auto-sync" value="false" />
     </driver>
     <driver id="oracle" name="Oracle" dialect="Oracle">
       <option name="auto-sync" value="false" />
       <option name="auto-commit" value="false" />
     </driver>
-    <driver id="odbc.sun" name="ODBC">
+    <driver id="derby.embedded" name="Derby (Embedded)" dialect="Derby">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="derby.embedded" name="Derby (Embedded)" dialect="Derby">
+    <driver id="sybase.jtds" name="Sybase (jTds)" dialect="Sybase">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="derby.remote" name="Derby (Remote)" dialect="Derby">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="h2.unified" name="H2" dialect="H2">
+    <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
+    <driver id="sybase.ase" name="Sybase (Native)" dialect="Sybase">
       <option name="auto-sync" value="false" />
-      <property name="prompt" value="false" />
     </driver>
-    <driver id="hsqldb.remote" name="HSQLDB (Remote)" dialect="HSQLDB">
+    <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
       <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="oracle.jdbc.driver.OracleDriver" name="oracle.jdbc.driver.OracleDriver" driver-class="oracle.jdbc.driver.OracleDriver">
-      <url-template name="default" template="jdbc:oracle:thin:@10.1.10.20:1521:ahudb" />
     </driver>
     <driver id="db2" name="DB2 (LUW)" dialect="DB2">
       <option name="auto-sync" value="false" />
       <property name="retrieveMessagesFromServerOnGetMessage" value="true" />
     </driver>
-    <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
+    <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
-      <option name="auto-sync" value="true" />
+    <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
+      <option name="auto-sync" value="false" />
+      <property name="prompt" value="false" />
     </driver>
     <driver id="mysql" name="MySQL" dialect="MySQL">
       <option name="auto-sync" value="true" />
@@ -79,6 +71,12 @@
       <library>
         <url>file://D:/projects/_ide/.IntelliJIdea13/config/jdbc-drivers/mysql-connector-java-5.1.29-bin.jar</url>
       </library>
+    </driver>
+    <driver id="hsqldb.remote" name="HSQLDB (Remote)" dialect="HSQLDB">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="oracle.jdbc.driver.OracleDriver" name="oracle.jdbc.driver.OracleDriver" driver-class="oracle.jdbc.driver.OracleDriver">
+      <url-template name="default" template="jdbc:oracle:thin:@10.1.10.20:1521:ahudb" />
     </driver>
   </component>
 </application>
