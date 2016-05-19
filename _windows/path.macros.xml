@@ -6,5 +6,6 @@
     <macro name="MVN_REPOS" value="D:/projects/_lib/jars" />
     <macro name="TOOLS_HOME" value="D:/tools" />
     <ignoredMacro name="CHAOS_HOME" />
+    <ignoredMacro name="PROJECT_ROOT" />
   </component>
 </application>
