@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Files" />
-    <option name="defaultScopeName" value="Project Files" />
+    <option name="customScope" value="File 'D:\projects\chain\main\sencha\packages\chain-main\src\ctrl\UserCtrl.js'" />
+    <option name="defaultScopeName" value="File 'D:\projects\chain\main\sencha\packages\chain-main\src\ctrl\UserCtrl.js'" />
     <option name="fromCursor" value="false" />
     <option name="FIND_ORIGIN" value="entire_scope" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="SEARCH_SCOPE" value="File 'D:\projects\chain\main\sencha\packages\chain-main\src\ctrl\UserCtrl.js'" />
     <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.html</mask>
