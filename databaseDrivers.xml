@@ -3,7 +3,7 @@
     <driver id="h2.unified" name="H2" dialect="H2">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="37f6ebf2-2447-44dc-aa6c-370308a600a6" name="chain@localhost driver" dialect="MySQL" driver-class="org.gjt.mm.mysql.Driver" icon="AllIcons.Providers.Mysql">
+    <driver id="37f6ebf2-2447-44dc-aa6c-370308a600a6" name="chain@localhost driver" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
       <artifact name="MySQL Connector/J" />
       <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
       <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:identifier}&gt;]" />
