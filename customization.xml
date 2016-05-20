@@ -5,6 +5,7 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <action id="BuildArtifact" icon="D:/projects/_ide/razor.png" />
   </component>
   <component name="com.intellij.ide.ui.customization.CustomizableActionsSchemas">
     <group value="BuildArtifact" is_action="true" action_type="1" position="24">
