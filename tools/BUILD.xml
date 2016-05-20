@@ -1,0 +1,16 @@
+<toolSet name="BUILD">
+  <tool name="mvn" description="maven install" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\projects\chaos\base\core\bin\mvn.bat" />
+      <option name="PARAMETERS" value="install" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SenchaInit" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\projects\chain\.sencha\sencha-init.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="D:/projects/chain/.sencha" />
+    </exec>
+  </tool>
+</toolSet>
