@@ -31,6 +31,21 @@
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
       <option name="auto-sync" value="false" />
     </driver>
+    <driver id="4d308014-63ee-4f0d-a5cc-00d86f802bca" name="chain@localhost driver" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
+      <artifact name="MySQL Connector/J" />
+      <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
+      <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:identifier}&gt;]" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <property name="zeroDateTimeBehavior" value="convertToNull" />
+      <property name="tinyInt1isBit" value="false" />
+      <property name="characterEncoding" value="utf8" />
+      <property name="characterSetResults" value="utf8" />
+      <property name="yearIsDateType" value="false" />
+      <library>
+        <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.3/mysql-connector-java-5.1.3.jar</url>
+      </library>
+    </driver>
     <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
       <option name="auto-sync" value="true" />
     </driver>
