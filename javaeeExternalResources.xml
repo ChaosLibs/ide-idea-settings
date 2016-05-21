@@ -29,6 +29,7 @@
     <resource url="http://www.w3.org/1999/XSL/Format" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/a0b6239a_fop.xsd" />
     <resource url="http://www.w3.org/2001/xml.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/9b192256_xml.xsd" />
     <resource url="http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" location="D:/projects/_ide/.IntelliJIdea14/system/extResources/edd63e24_svg10.dtd" />
+    <resource url="http://www.zeroturnaround.com" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/20b583dc_rebel-2_1.xsd" />
     <resource url="http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8ba66f82_application_7.xsd" />
     <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/27c071c8_web-app_3_1.xsd" />
     <resource url="https://maven.apache.org/plugins/maven-changes-plugin/xsd/changes-1.0.0.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/509830d8_changes-1.0.0.xsd" />
