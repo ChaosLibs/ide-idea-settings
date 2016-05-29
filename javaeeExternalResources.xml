@@ -23,7 +23,7 @@
     <resource url="http://www.mulesoft.org/schema/mule/vm/3.3/mule-vm.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/2206e534_mule-vm.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/xml/3.3/mule-xml.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/b66cc29a_mule-xml.xsd" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/a33d7b50_spring-beans-3.1.xsd" />
-    <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/334543e7_spring-beans.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/334543e7_spring-beans.xsd" />
     <resource url="http://www.springframework.org/schema/context/spring-context-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/1dc30c50_spring-context-3.1.xsd" />
     <resource url="http://www.springframework.org/schema/tool/spring-tool-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/5f680122_spring-tool-3.1.xsd" />
     <resource url="http://www.w3.org/1999/XSL/Format" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/a0b6239a_fop.xsd" />
