@@ -1,4 +1,4 @@
-<filetype binary="false" description="ChaosConfig" name="ChaosConfig">
+<filetype binary="false" description="_aa ChaosConfig" name="chaos.Config">
   <highlighting>
     <options>
       <option name="LINE_COMMENT" value="#" />

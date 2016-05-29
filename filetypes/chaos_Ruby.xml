@@ -1,0 +1,21 @@
+<filetype binary="false" description="_aa ChaosRuby" name="chaos.Ruby">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="#rem " />
+      <option name="COMMENT_START" value="#/" />
+      <option name="COMMENT_END" value="/#" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+      <option name="HAS_PARENS" value="true" />
+    </options>
+    <keywords keywords="File;dirname;join" ignore_case="false" />
+    <keywords2 keywords="__FILE__" />
+    <keywords3 keywords="#rem#;load;require" />
+  </highlighting>
+  <extensionMap>
+    <mapping pattern="*.pod.rb" />
+    <mapping pattern="*.dev.rb" />
+  </extensionMap>
+</filetype>
