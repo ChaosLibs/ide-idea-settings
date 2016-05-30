@@ -5,13 +5,13 @@
     <option name="fromCursor" value="false" />
     <option name="FIND_ORIGIN" value="entire_scope" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.ant.xml" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.ant.xml</mask>
       <mask>*.cs</mask>
       <mask>module.html</mask>
       <mask>*.java</mask>
@@ -22,6 +22,7 @@
       <mask>*.xml</mask>
       <mask>*.js</mask>
       <mask>pom.xml</mask>
+      <mask>*.ant.xml</mask>
     </recentFileMasks>
   </component>
 </application>
