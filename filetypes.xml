@@ -6,6 +6,7 @@
       <mapping pattern="test-sevice" type="PLAIN_TEXT" />
       <mapping pattern="old-tf-service" type="PLAIN_TEXT" />
       <mapping ext="lst" type="PLAIN_TEXT" />
+      <mapping ext="gradlr" type="PLAIN_TEXT" />
       <mapping ext="avro" type="PLAIN_TEXT" />
       <mapping ext="marker" type="PLAIN_TEXT" />
       <mapping ext="failed" type="PLAIN_TEXT" />
