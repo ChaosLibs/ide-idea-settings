@@ -21,6 +21,7 @@
     <resource url="http://www.mulesoft.org/schema/mule/file/3.4/mule-file.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8561657f_mule-file.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/ftp/3.4/mule-ftp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/54d3ce19_mule-ftp.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/http/3.3/mule-http.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/fa6d9056_mule-http.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/jersey/3.4/mule-jersey.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/c1051c27_mule-jersey.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/quartz/3.4/mule-quartz.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/ea339b7d_mule-quartz.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.3/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/9863e8da_mule-schemadoc.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.4/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8005bf39_mule-schemadoc.xsd" />
