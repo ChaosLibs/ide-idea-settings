@@ -193,6 +193,14 @@
   <component name="NodeLocalInterpreterManager">
     <node-interpreter path="$TOOLS_HOME$/nodejs/node.exe" version="0.12.0" last-modified="1425387138502" />
   </component>
+  <component name="PersistenceGenerationSettings">
+    <option name="addToUnit" value="true" />
+    <option name="generateAnnotations" value="false" />
+    <option name="generateSingleXml" value="true" />
+    <option name="GENERATE_ANNOTATIONS" value="false" />
+    <option name="GENERATE_XML" value="true" />
+    <option name="ADD_TO_UNIT" value="true" />
+  </component>
   <component name="PluginManagerConfigurable" proportions="" version="1">
     <option name="AVAILABLE_SORT_COLUMN" value="2" />
     <option name="INSTALLED_SORT_COLUMN" value="1" />
