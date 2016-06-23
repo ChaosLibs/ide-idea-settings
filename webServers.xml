@@ -1,5 +1,10 @@
 <application>
   <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hostKeyCheckingLevel="NO">
+        <option name="hostKeyCheckingLevel" value="NO" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="64338edb-e785-4609-9936-74052669e3d9" name="Local:Liferay" url="http://localhost:3333/portal">
         <fileTransfer mountedRoot="D:\server\liferay-portal-6" accessType="MOUNT" />
@@ -9,6 +14,7 @@
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="5d5dc23a-98dc-4979-b6d5-07b992f02699" name="Enigma:Liferay" url="http://demo.yukawa.de">
@@ -16,6 +22,7 @@
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="8bfe2d76-469e-4d1f-a1f0-4755a5c63db2" name="Local:JBoss5" url="http://localhost:3333">
@@ -29,6 +36,7 @@
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="27d3dd27-bd0d-4fd4-a019-72ee50086d4e" name="Enigma:JBoss" url="http://server.enigma.yukawa.de:3333">
@@ -36,6 +44,7 @@
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="618990c9-0615-471b-8dc6-21a5f4219411" name="Enigma:Home" url="http://server.enigma.yukawa.de:3333">
@@ -43,6 +52,7 @@
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
