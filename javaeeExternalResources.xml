@@ -1,51 +1,27 @@
 <application>
   <component name="ExternalResourceManagerImpl">
-    <resource url="chaos-" location="D:/projects/chaos/tag/xhtml/src/META-INF/tld/chaos-xhtml-tags.tld" />
-    <resource url="http://cxf.apache.org/schemas/configuration/cxf-beans.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/5b196030_cxf-beans.xsd" />
-    <resource url="http://cxf.apache.org/schemas/configuration/parameterized-types.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/2b84f58e_parameterized-types.xsd" />
-    <resource url="http://cxf.apache.org/schemas/core.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/263a46b3_core.xsd" />
-    <resource url="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/48b8f268_assembly-1.1.2.xsd" />
     <resource url="http://maven.apache.org/xsd/assembly-1.1.2.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/48b8f268_assembly-1.1.2.xsd" />
-    <resource url="http://maven.apache.org/xsd/assembly-1.1.3.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/48c709e9_assembly-1.1.3.xsd" />
     <resource url="http://maven.apache.org/xsd/changes-1.0.0.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/353a3aca_changes-1.0.0.xsd" />
-    <resource url="http://maven.apache.org/xsd/component-1.1.2.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/2c089dc7_component-1.1.2.xsd" />
     <resource url="http://www.chaosinc.de/chaos-base-tags" location="D:/projects/chaos/tag/core/src/META-INF/tld/chaos-base-tags.tld" />
     <resource url="http://www.chaosinc.de/chaos-xhtml-tags" location="D:/projects/chaos/tag/xhtml/src/META-INF/tld/chaos-xhtml-tags.tld" />
     <resource url="http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8ec6b4f6_hibernate-mapping-3.0.dtd" />
-    <resource url="http://www.jboss.org/j2ee/dtd/jboss-client_4_0.dtd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/cb25bc84_jboss-client_4_0.dtd" />
-    <resource url="http://www.jboss.org/j2ee/dtd/jboss_6_0.dtd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/a2df7c4e_jboss_6_0.dtd" />
-    <resource url="http://www.jboss.org/j2ee/dtd/jboss_xmbean_1_0.dtd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/17d17dcd_jboss_xmbean_1_0.dtd" />
-    <resource url="http://www.jboss.org/j2ee/dtd/service-ref_4_0.dtd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/b9969b0_service-ref_4_0.dtd" />
-    <resource url="http://www.jboss.org/j2ee/dtd/service-ref_5_0.dtd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/407fa4f1_service-ref_5_0.dtd" />
-    <resource url="http://www.mulesoft.org/schema/mule/core/3.3/mule.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/21671d9e_mule.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/core/3.4/mule.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/15b08ebd_mule.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/core/3.6/mule.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/fe4370fb_mule.xsd" />
-    <resource url="http://www.mulesoft.org/schema/mule/cxf/3.3/mule-cxf.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/ac9af8da_mule-cxf.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/email/3.4/mule-email.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/3ad3b699_mule-email.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/file/3.4/mule-file.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8561657f_mule-file.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/ftp/3.4/mule-ftp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/54d3ce19_mule-ftp.xsd" />
-    <resource url="http://www.mulesoft.org/schema/mule/http/3.3/mule-http.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/fa6d9056_mule-http.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/jersey/3.4/mule-jersey.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/c1051c27_mule-jersey.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/jersey/3.6/mule-jersey.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/6258d829_mule-jersey.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/quartz/3.4/mule-quartz.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/ea339b7d_mule-quartz.xsd" />
-    <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.3/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/9863e8da_mule-schemadoc.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.4/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8005bf39_mule-schemadoc.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/sftp/3.4/mule-sftp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/fdc04265_mule-sftp.xsd" />
-    <resource url="http://www.mulesoft.org/schema/mule/tcp/3.3/mule-tcp.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/3d141ada_mule-tcp.xsd" />
-    <resource url="http://www.mulesoft.org/schema/mule/vm/3.3/mule-vm.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/2206e534_mule-vm.xsd" />
-    <resource url="http://www.mulesoft.org/schema/mule/xml/3.3/mule-xml.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/b66cc29a_mule-xml.xsd" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/a33d7b50_spring-beans-3.1.xsd" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/334543e7_spring-beans.xsd" />
     <resource url="http://www.springframework.org/schema/context/spring-context-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/1dc30c50_spring-context-3.1.xsd" />
     <resource url="http://www.springframework.org/schema/tool/spring-tool-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/5f680122_spring-tool-3.1.xsd" />
-    <resource url="http://www.w3.org/1999/XSL/Format" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/a0b6239a_fop.xsd" />
     <resource url="http://www.w3.org/2001/xml.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/9b192256_xml.xsd" />
-    <resource url="http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" location="D:/projects/_ide/.IntelliJIdea14/system/extResources/edd63e24_svg10.dtd" />
     <resource url="http://www.zeroturnaround.com" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/20b583dc_rebel-2_1.xsd" />
     <resource url="http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8ba66f82_application_7.xsd" />
-    <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/27c071c8_web-app_3_1.xsd" />
-    <resource url="https://maven.apache.org/plugins/maven-changes-plugin/xsd/changes-1.0.0.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/509830d8_changes-1.0.0.xsd" />
-    <resource url="https://svn.apache.org/repos/asf/xmlgraphics/fop/trunk/src/foschema/fop.xsd" location="D:/projects/_ide/.IntelliJIdea15/system/extResources/a0b6239a_fop.xsd" />
     <resource url="urn:jboss:cli:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-cli_1_0.xsd" />
     <resource url="urn:jboss:domain:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-config_1_0.xsd" />
     <resource url="urn:jboss:domain:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-config_1_1.xsd" />
@@ -106,10 +82,8 @@
     <resource url="urn:jboss:domain:xts:1.0" location="$JBOSS_HOME$/docs/schema/jboss-xts.xsd" />
     <resource url="urn:jboss:ejb-client:1.0" location="$JBOSS_HOME$/docs/schema/jboss-ejb-client_1_0.xsd" />
     <resource url="urn:jboss:ejb-client:1.1" location="$JBOSS_HOME$/docs/schema/jboss-ejb-client_1_1.xsd" />
-    <resource url="urn:jboss:jbossws-jaxws-config:4.0" location="$JBOSS_HOME$/docs/schema/jbossws-jaxws-config_4_0.xsd" />
     <resource url="urn:jboss:messaging-deployment:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-messaging-deployment_1_0.xsd" />
     <resource url="urn:jboss:pojo:7.0" location="$JBOSS_HOME$/docs/schema/jboss-pojo_7_0.xsd" />
-    <resource url="urn:jboss:service:7.0" location="$JBOSS_HOME$/docs/schema/jboss-service_7_0.xsd" />
     <ignored-resource url="antlib:inc.chaos.ally.ant.log" />
     <ignored-resource url="http://www.w3.org/2005/xpath-functions" />
     <ignored-resource url="local" />
