@@ -19,6 +19,8 @@
     <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/334543e7_spring-beans.xsd" />
     <resource url="http://www.springframework.org/schema/context/spring-context-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/1dc30c50_spring-context-3.1.xsd" />
     <resource url="http://www.springframework.org/schema/tool/spring-tool-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/5f680122_spring-tool-3.1.xsd" />
+    <resource url="http://www.vorwerk.com/ESB/model/order/v2" location="$MAVEN_REPOSITORY$/com/vorwerk/integration/core/esb-core-domain/4.22.0.0-SNAPSHOT/esb-core-domain-4.22.0.0-SNAPSHOT-sources.jar!/ESB_model_order_v2.xsd" />
+    <resource url="http://www.vorwerk.com/ESB/model/person/v2" location="$MAVEN_REPOSITORY$/com/vorwerk/integration/core/esb-core-domain/4.22.0.0-SNAPSHOT/esb-core-domain-4.22.0.0-SNAPSHOT-sources.jar!/schema39.xsd" />
     <resource url="http://www.w3.org/2001/xml.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/9b192256_xml.xsd" />
     <resource url="http://www.zeroturnaround.com" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/20b583dc_rebel-2_1.xsd" />
     <resource url="http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8ba66f82_application_7.xsd" />
