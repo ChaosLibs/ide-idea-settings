@@ -53,6 +53,10 @@
     <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="0204112f-27a9-4755-b283-b5f85606566c" name="${data-access.password}" driver-class="null">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="derby.remote" name="Derby (Remote)" dialect="Derby">
       <option name="auto-sync" value="true" />
     </driver>
