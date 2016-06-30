@@ -188,6 +188,7 @@
   <component name="NodeJsLocalInterpreters">
     <local-interpreter path="$TOOLS_HOME$/nodejs/node.exe">
       <version-cache version="0.12.0" last-modified="1425387138502" />
+      <npm-package value="$TOOLS_HOME$/nodejs/node_modules/npm" />
     </local-interpreter>
   </component>
   <component name="NodeLocalInterpreterManager">
