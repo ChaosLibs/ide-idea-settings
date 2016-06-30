@@ -5,12 +5,12 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="External Build Systems" is_group="true" action_type="1" position="25">
+    <group value="ChangesView.AddUnversioned.From.Dialog" is_action="true" action_type="1" position="25">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ChangesView.AddUnversioned.From.Dialog" is_action="true" action_type="1" position="26">
+    <group value="WebDeployment.BrowseServers" is_action="true" action_type="1" position="26">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
@@ -20,17 +20,23 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Gradle.ExecuteTask" is_action="true" action_type="1" position="28">
+    <group value="External Build Systems" is_group="true" action_type="1" position="28">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ExternalSystem.RefreshAllProjects" is_action="true" action_type="1" position="29">
+    <group value="Gradle.ExecuteTask" is_action="true" action_type="1" position="29">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExternalSystem.RefreshAllProjects" is_action="true" action_type="1" position="30">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <action id="BuildArtifact" icon="D:/projects/_ide/razor.png" />
+    <action id="WebServicesPlugin.CreateRESTClient" />
   </component>
   <component name="com.intellij.ide.ui.customization.CustomizableActionsSchemas">
     <group value="BuildArtifact" is_action="true" action_type="1" position="24">
