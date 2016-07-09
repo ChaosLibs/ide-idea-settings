@@ -20,8 +20,8 @@
       <option name="JAVA_SCRIPT" value="true" />
       <option name="GROOVY" value="false" />
       <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
       <option name="MAVEN" value="false" />
       <option name="ASPECTJ" value="false" />
       <option name="CoffeeScript" value="false" />
@@ -51,7 +51,7 @@
       <option name="JAVA_SCRIPT" value="true" />
       <option name="GROOVY" value="false" />
       <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_STATEMENT" value="true" />
       <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="ASPECTJ" value="false" />
@@ -82,8 +82,8 @@
       <option name="JAVA_SCRIPT" value="true" />
       <option name="GROOVY" value="false" />
       <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
       <option name="MAVEN" value="false" />
       <option name="ASPECTJ" value="false" />
       <option name="CoffeeScript" value="false" />
