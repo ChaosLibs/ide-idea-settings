@@ -10,15 +10,20 @@
     <resource url="http://www.mulesoft.org/schema/mule/email/3.4/mule-email.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/3ad3b699_mule-email.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/file/3.4/mule-file.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8561657f_mule-file.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/ftp/3.4/mule-ftp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/54d3ce19_mule-ftp.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/http/3.4/mule-http.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/5448fa97_mule-http.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/jersey/3.4/mule-jersey.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/c1051c27_mule-jersey.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/jersey/3.6/mule-jersey.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/6258d829_mule-jersey.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/quartz/3.4/mule-quartz.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/ea339b7d_mule-quartz.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.4/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8005bf39_mule-schemadoc.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/sftp/3.4/mule-sftp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/fdc04265_mule-sftp.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/tcp/3.4/mule-tcp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/1ef1e479_mule-tcp.xsd" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/a33d7b50_spring-beans-3.1.xsd" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans-4.3.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/d83fe593_spring-beans-4.3.xsd" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/334543e7_spring-beans.xsd" />
     <resource url="http://www.springframework.org/schema/context/spring-context-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/1dc30c50_spring-context-3.1.xsd" />
     <resource url="http://www.springframework.org/schema/tool/spring-tool-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/5f680122_spring-tool-3.1.xsd" />
+    <resource url="http://www.springframework.org/schema/tool/spring-tool-4.3.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/946a6b65_spring-tool-4.3.xsd" />
+    <resource url="http://www.springframework.org/schema/tx/spring-tx.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/bc20ae51_spring-tx.xsd" />
     <resource url="http://www.vorwerk.com/ESB/model/order/v2" location="$MAVEN_REPOSITORY$/com/vorwerk/integration/core/esb-core-domain/4.22.0.0-SNAPSHOT/esb-core-domain-4.22.0.0-SNAPSHOT-sources.jar!/ESB_model_order_v2.xsd" />
     <resource url="http://www.vorwerk.com/ESB/model/person/v2" location="$MAVEN_REPOSITORY$/com/vorwerk/integration/core/esb-core-domain/4.22.0.0-SNAPSHOT/esb-core-domain-4.22.0.0-SNAPSHOT-sources.jar!/schema39.xsd" />
     <resource url="http://www.w3.org/2001/xml.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/9b192256_xml.xsd" />
