@@ -192,7 +192,7 @@
     </local-interpreter>
   </component>
   <component name="NodeLocalInterpreterManager">
-    <node-interpreter path="$TOOLS_HOME$/nodejs/node.exe" version="0.12.0" last-modified="1425387138502" />
+    <node-interpreter path="$TOOLS_HOME$/nodejs/node.exe" version="4.4.7" last-modified="1467329516600" />
   </component>
   <component name="PersistenceGenerationSettings">
     <option name="addToUnit" value="true" />

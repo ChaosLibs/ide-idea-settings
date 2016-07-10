@@ -1,0 +1,5 @@
+<keymap version="1" name="ChaosKeys_Grad" parent="$default">
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+</keymap>
