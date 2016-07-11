@@ -312,7 +312,7 @@
         <option value="svn+ssh://78.46.65.49/usr/local/code/version/svn/postecon/chain/trunk" />
       </list>
     </option>
-    <option name="mySvnCommandLine" value="" />
+    <option name="mySvnCommandLine" value="D:\tools\silk-svn\bin\svn.exe" />
   </component>
   <component name="SvnBranchMapperManager">
     <option name="myMapping">
