@@ -243,6 +243,24 @@
   <component name="PsiViewerSettings">
     <option name="type" value="CSS file" />
   </component>
+  <component name="RecentTaskRepositories">
+    <GitHub shared="false" url="https://github.com">
+      <option name="assignedIssuesOnly" value="false" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <token />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="repoAuthor" value="" />
+      <option name="repoName" value="" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <option name="user" value="" />
+      <username />
+    </GitHub>
+  </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
