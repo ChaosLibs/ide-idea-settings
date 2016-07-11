@@ -4,10 +4,9 @@
     <option name="griffin" value="true" />
     <option name="ideInstallationStorage">
       <map>
-        <entry key="com.zeroturnaround.jrebel.ide.RemoteServers" value="{&quot;RemoteServers&quot;:[{&quot;syncEnabled&quot;:&quot;true&quot;,&quot;serverAuthenticationPassword&quot;:&quot;&quot;,&quot;httpBasicAuthenticationUser&quot;:&quot;&quot;,&quot;httpBasicAuthenticationPassword&quot;:&quot;&quot;,&quot;name&quot;:&quot;mule&quot;,&quot;useServerAuthentication&quot;:&quot;false&quot;,&quot;deleteFilesOnServer&quot;:&quot;true&quot;,&quot;useHttpBasicAuthentication&quot;:&quot;false&quot;,&quot;url&quot;:&quot;http:\/\/127.0.0.1:5506&quot;}]}" />
-        <entry key="com.zeroturnaround.jrebel.intellij.remoting.syncOnBuildToRemoteServers" value="false" />
+        <entry key="com.zeroturnaround.jrebel.ide.RemoteServers" value="{&quot;RemoteServers&quot;:[{&quot;syncEnabled&quot;:&quot;true&quot;,&quot;serverAuthenticationPassword&quot;:&quot;&quot;,&quot;httpBasicAuthenticationUser&quot;:&quot;&quot;,&quot;httpBasicAuthenticationPassword&quot;:&quot;&quot;,&quot;name&quot;:&quot;server-5506-mule&quot;,&quot;useServerAuthentication&quot;:&quot;false&quot;,&quot;deleteFilesOnServer&quot;:&quot;true&quot;,&quot;useHttpBasicAuthentication&quot;:&quot;false&quot;,&quot;url&quot;:&quot;http:\/\/127.0.0.1:5506&quot;},{&quot;syncEnabled&quot;:&quot;true&quot;,&quot;serverAuthenticationPassword&quot;:&quot;&quot;,&quot;httpBasicAuthenticationUser&quot;:&quot;&quot;,&quot;httpBasicAuthenticationPassword&quot;:&quot;&quot;,&quot;name&quot;:&quot;server-5060&quot;,&quot;useServerAuthentication&quot;:&quot;false&quot;,&quot;deleteFilesOnServer&quot;:&quot;true&quot;,&quot;useHttpBasicAuthentication&quot;:&quot;false&quot;,&quot;url&quot;:&quot;http:\/\/localhost:5060&quot;}]}" />
+        <entry key="com.zeroturnaround.jrebel.intellij.remoting.syncOnBuildToRemoteServers" value="true" />
       </map>
     </option>
-    <option name="settingsStartupRadioSelection" value="2" />
   </component>
 </application>
