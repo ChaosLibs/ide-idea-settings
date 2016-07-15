@@ -2,32 +2,7 @@
   <template name="scopeAlmond" value="(function (root, factory) {&#10;    if (typeof define === 'function' &amp;&amp; define.amd) {&#10;        //Allow using this built library as an AMD module&#10;        //in another project. That other project will only&#10;        //see this AMD call, not the internal modules in&#10;        //the closure below.&#10;        define('$global$', factory);&#10;    } else {&#10;        //Browser globals case. Just assign the&#10;        //result to a property on the global.&#10;        root.$global$ = factory();&#10;    }&#10;}(this, function () {&#10;&#10;    $END$&#10;    &#10;}));" description="Scope Alomond" toReformat="false" toShortenFQNames="true">
     <variable name="global" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ASPECTJ" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>

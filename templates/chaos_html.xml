@@ -1,32 +1,11 @@
 <templateSet group="chaos.html">
   <template name="table" value="&lt;table&gt;&#10;    &lt;tbody&gt;&#10;        &lt;tr&gt;               &#10;            &lt;td&gt;$END$&lt;/td&gt;&#10;        &lt;/tr&gt;&#10;    &lt;/tbody&gt;&#10;&lt;/table&gt;" description="HTML Table" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
       <option name="XSL_TEXT" value="true" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
       <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ASPECTJ" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>

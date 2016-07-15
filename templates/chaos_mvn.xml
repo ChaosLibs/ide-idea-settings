@@ -1,411 +1,43 @@
 <templateSet group="chaos.mvn">
   <template name="evalExp" value="&lt;plugin&gt;&#10;    &lt;artifactId&gt;maven-help-plugin&lt;/artifactId&gt;&#10;    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;    &lt;version&gt;${mvn.help.version}&lt;/version&gt;&#10;    &lt;executions&gt;&#10;        &lt;execution&gt;&#10;            &lt;phase&gt;initialize&lt;/phase&gt;&#10;            &lt;goals&gt;&lt;goal&gt;evaluate&lt;/goal&gt;&lt;/goals&gt;&#10;            &lt;configuration&gt;&#10;                &lt;artifact&gt;${project.groupId}:${project.artifactId}&lt;/artifact&gt;&#10;                &lt;expression&gt;settings.localRepository&lt;/expression&gt;&#10;            &lt;/configuration&gt;&#10;        &lt;/execution&gt;&#10;    &lt;/executions&gt;&#10;&lt;/plugin&gt;" description="Evaluate Expresion Plugin" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="regEx" value="&lt;plugin&gt;&#10;    &lt;artifactId&gt;build-helper-maven-plugin&lt;/artifactId&gt;&#10;    &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;&#10;    &lt;version&gt;${mvn.builder.version}&lt;/version&gt;&#10;    &lt;executions&gt;&#10;        &lt;execution&gt;&#10;            &lt;phase&gt;initialize&lt;/phase&gt;&#10;            &lt;goals&gt;&lt;goal&gt;regex-properties&lt;/goal&gt;&lt;/goals&gt;&#10;            &lt;configuration&gt;&#10;                &lt;regexPropertySettings&gt;&#10;                    &lt;regexPropertySetting&gt;&#10;                        &lt;name&gt;test.prop&lt;/name&gt;&#10;                        &lt;regex&gt;x&lt;/regex&gt;&#10;                        &lt;replacement&gt;x&lt;/replacement&gt;&#10;                        &lt;value&gt;x&lt;/value&gt;&#10;                    &lt;/regexPropertySetting&gt;&#10;                &lt;/regexPropertySettings&gt;&#10;            &lt;/configuration&gt;&#10;        &lt;/execution&gt;&#10;    &lt;/executions&gt;&#10;&lt;/plugin&gt;" description="Build Helper Regex Plugin" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="groupId" value="${project.groupId}" description="GroupId Experssion" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="artifactId" value="${project.artifactId}" description="ArtifactId Experssion" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="addSource" value="&lt;plugin&gt;&#10;    &lt;artifactId&gt;build-helper-maven-plugin&lt;/artifactId&gt;&#10;    &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;&#10;    &lt;version&gt;${mvn.builder.version}&lt;/version&gt;&#10;    &lt;executions&gt;&#10;        &lt;execution&gt;&#10;            &lt;phase&gt;initialize&lt;/phase&gt;&#10;            &lt;goals&gt;&lt;goal&gt;add-source&lt;/goal&gt;&lt;/goals&gt;&#10;            &lt;configuration&gt;&#10;                &lt;sources&gt;&#10;                    &lt;source&gt;$SOURCE$&lt;/source&gt;&#10;                &lt;/sources&gt;&#10;            &lt;/configuration&gt;&#10;        &lt;/execution&gt;&#10;    &lt;/executions&gt;&#10;&lt;/plugin&gt;&#10;$END$" description="Add Source Root Plugin" toReformat="true" toShortenFQNames="false">
     <variable name="SOURCE" expression="" defaultValue="&quot;src/main/gen&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="actProf" value="&lt;plugin&gt;&#10;    &lt;artifactId&gt;maven-help-plugin&lt;/artifactId&gt;&#10;    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;    &lt;version&gt;${mvn.help.version}&lt;/version&gt;&#10;    &lt;executions&gt;&#10;        &lt;execution&gt;&#10;            &lt;id&gt;view-profiles&lt;/id&gt;&#10;            &lt;phase&gt;initialize&lt;/phase&gt;&#10;            &lt;goals&gt;&lt;goal&gt;active-profiles&lt;/goal&gt;&lt;/goals&gt;&#10;        &lt;/execution&gt;&#10;    &lt;/executions&gt;&#10;&lt;/plugin&gt;&#10;" description="Active Profiles Plugin" toReformat="true" toShortenFQNames="false">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="vers" value="${project.version}" description="Version Experssion" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ant" value="&lt;!-- Ant Runner --&gt;&#10;&lt;plugin&gt;&#10;    &lt;artifactId&gt;maven-antrun-plugin&lt;/artifactId&gt;&#10;    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;    &lt;version&gt;${mvn.antrun.version}&lt;/version&gt;&#10;    &lt;executions&gt;&#10;        &lt;execution&gt;&#10;            &lt;id&gt;copy-bundles&lt;/id&gt;&#10;            &lt;phase&gt;generate-sources&lt;/phase&gt;&#10;            &lt;goals&gt;&lt;goal&gt;run&lt;/goal&gt;&lt;/goals&gt;&#10;            &lt;configuration&gt;&#10;                &lt;target&gt;&#10;                    &lt;ant antfile=&quot;../../chaos-mvn.ant.xml&quot;&gt;&#10;                        &lt;target name=&quot;mvn:bundle&quot;/&gt;&#10;                    &lt;/ant&gt;&#10;                &lt;/target&gt;&#10;            &lt;/configuration&gt;&#10;        &lt;/execution&gt;&#10;    &lt;/executions&gt;&#10;&lt;/plugin&gt;&#10;" description="Ant Runner Plugin" toReformat="true" toShortenFQNames="false">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="true" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
-      <option name="HAML" value="false" />
-      <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>
