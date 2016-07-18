@@ -1,5 +1,7 @@
 <templateSet group="chaos.js">
-  <template name="scopeDoc" value="(function(window) {&#10;    // Use the correct document accordingly with window argument (sandbox)&#10;    // noinspection JSUnusedLocalSymbols&#10;    var document = window.document, navigator = window.navigator, location = window.location;&#10;    &#10;    $END$&#10;&#10;})(window);" description="Scope Document" toReformat="false" toShortenFQNames="true">
+  <template name="scopeWin" value="(function(window) {&#10;    $STRICT$&#10;    // Use the correct document accordingly with window argument (sandbox)&#10;    // noinspection JSUnusedLocalSymbols&#10;    var document = window.document$NAVIGATOR$;&#10;    $END$&#10;    &#10;})(window);" description="Scope Window Document [chaos.js]" toReformat="false" toShortenFQNames="true">
+    <variable name="STRICT" expression="enum(&quot;'use strict';&quot;,&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAVIGATOR" expression="enum(&quot;&quot;,&quot;, navigator = window.navigator&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -13,7 +15,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="logFac" value="var log = SysLog.getLog(&quot;$CATEGORY$&quot;);" description="SysLog Factory" toReformat="false" toShortenFQNames="true">
+  <template name="logf" value="var log = (typeof SysLog !== 'undefined') ? SysLog.getLog(&quot;$CATEGORY$&quot;) : console;" description="LogFactory Access (SysLog,Console) [chaos.js]" toReformat="false" toShortenFQNames="true">
     <variable name="CATEGORY" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -24,7 +26,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="scopEmpty" value="(function() {&#10;&#10;    $END$&#10;    &#10;})();" description="Scope Empty" toReformat="false" toShortenFQNames="true">
+  <template name="scopEmpty" value="(function() {&#10;    $STRICT$    &#10;    $END$&#10;        &#10;})();" description="Scope Empty [chaos.js]" toReformat="true" toShortenFQNames="true">
+    <variable name="STRICT" expression="enum(&quot;'use strict';&quot;,&quot;&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -34,6 +37,25 @@
     <variable name="arguments" expression="" defaultValue="arguments" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="scopeGlobal" value="(function (root, factory) {&#10;    $STRICT$&#10;    if (typeof define === 'function' &amp;&amp; define.amd) {&#10;        //Allow using this built library as an AMD module&#10;        //in another project. That other project will only&#10;        //see this AMD call, not the internal modules in&#10;        //the closure below.&#10;        define('$global$', factory);&#10;    } else if (typeof exports === 'object') {&#10;        // Node/CommonJS:&#10;        factory(         &#10;            //require(&quot;jquery&quot;)           &#10;        );&#10;    } else {&#10;        //Browser globals case. Just assign the&#10;        //result to a property on the global.&#10;        root.$global$ = factory();&#10;    }&#10;}(this, function () {&#10;    $STRICT$&#10;    $END$&#10;    &#10;}));" description="Scope Dependency Frameworks Global BETA [chaos.js]" toReformat="false" toShortenFQNames="true">
+    <variable name="global" expression="" defaultValue="&quot;$global$&quot;" alwaysStopAt="true" />
+    <variable name="STRICT" expression="enum(&quot;'use strict';&quot;,&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="logm" value="$LOG$.$LOG_LEVEL$(&quot;$SOURCE$ $METHOD$:$END$&quot;, $PARA$);" description="Log Message  [chaos.js]" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG" expression="enum(&quot;log&quot;,&quot;console&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOG_LEVEL" expression="enum(&quot;debug&quot;, &quot;info&quot;, &quot;error&quot;, &quot;warning&quot;, &quot;log&quot;, &quot;trace&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="jsClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARA" expression="" defaultValue="&quot;arguments&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
     </context>
   </template>
 </templateSet>

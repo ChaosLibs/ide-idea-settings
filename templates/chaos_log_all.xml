@@ -1,0 +1,15 @@
+<templateSet group="chaos.log.all">
+  <template name="logFacA" value="private static final $LOG_CLS$ log = $FACTORY$($CLS$.class);" description="LogFactory All" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FACTORY" expression="enum(&quot;org.slf4j.LoggerFactory.getLogger&quot;, &quot;org.apache.commons.logging.LogFactory.getLog&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LOG_CLS" expression="rightSideType()" defaultValue="&quot;Logger&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+</templateSet>
