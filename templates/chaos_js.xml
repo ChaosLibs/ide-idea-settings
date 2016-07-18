@@ -58,4 +58,16 @@
       <option name="JS_EXPRESSION" value="false" />
     </context>
   </template>
+  <template name="scopeDepend" value="(function (factory) {&#10;    'use strict';&#10;    if (typeof define === 'function' &amp;&amp; define.amd) {&#10;        // Register as an anonymous AMD module:&#10;        define(['$MOD_1_SHORT$', '$DEP_2_MODULE$'], factory);&#10;    } else if (typeof exports === 'object') {&#10;        // Node/CommonJS:&#10;        factory(            &#10;            require(&quot;$MOD_1_SHORT$&quot;),&#10;            require(&quot;$DEP_2_MODULE$&quot;)            &#10;        );&#10;    } else {&#10;        // Browser globals:&#10;        factory(window.$MOD_1_NAME$, window.$DEP_2_NAME$);&#10;    }&#10;}(function($MOD_1_JS$$DEP_2_SHORT$) {&#10;    'use strict';&#10;    $END$&#10;}));" description="Scope Dependency Frameworks [chaos.js]" toReformat="true" toShortenFQNames="true">
+    <variable name="MOD_1_NAME" expression="enum(&quot;jQuery&quot;, &quot;Front&quot;, &quot;SysType&quot;, &quot;Ext&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="MOD_1_SHORT" expression="enum(lowercaseAndDash(MOD_1_NAME),MOD_1_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="MOD_1_JS" expression="" defaultValue="MOD_1_NAME" alwaysStopAt="true" />
+    <variable name="DEP_2_NAME" expression="enum(&quot;Front&quot;, &quot;SysType&quot;, &quot;ViewFactory&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEP_2_MODULE" expression="enum(lowercaseAndDash(DEP_2_NAME),DEP_2_NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEP_2_SHORT" expression="" defaultValue="DEP_2_NAME" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
 </templateSet>
