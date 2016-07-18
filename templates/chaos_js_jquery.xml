@@ -2,7 +2,6 @@
   <template name="scope" value="(function (factory) {&#10;    'use strict';&#10;    if (typeof define === 'function' &amp;&amp; define.amd) {&#10;        // Register as an anonymous AMD module:&#10;        define(['jquery'], factory);&#10;    } else if (typeof exports === 'object') {&#10;        // Node/CommonJS:&#10;        factory(            &#10;            require(&quot;jquery&quot;)&#10;            //,require('../vendor/jquery-3.0.0')&#10;        );&#10;    } else {&#10;        // Browser globals:&#10;        factory(window.jQuery);&#10;    }&#10;}(function($) {&#10;    $END$&#10;}));" description="Scope JQuery [chaos.js.jquery]" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
   <template name="widget" value="/**&#10; * @widget $NAME$&#10; */&#10;widget(&quot;$NS$.$NAME$&quot;, $SUPER_CLS${&#10;    options: {},&#10;    $END$&#10;    _create: function() {&#10;        //&lt;debug&gt;&#10;        //console.debug(&quot;%s _create %o &quot;, this.widgetFullName ,this.options);&#10;        //&lt;/debug&gt;&#10;        this._super();&#10;        var me = this,&#10;            elem = this.element;&#10;        elem.addClass(&quot;$NS$-$CSS_CLASS$&quot;);&#10;    },&#10;    _destroy: function() {&#10;        this.element&#10;            .removeClass(&quot;$NS$-$CSS_CLASS$&quot;);&#10;        //&lt;debug&gt;&#10;        //console.debug(&quot;%s _destroy %o&quot;, this.widgetFullName, this.element);&#10;        //&lt;/debug&gt;&#10;        this._super();&#10;    }&#10;});" description="Widget Definition [chaos.js.jquery]" toReformat="true" toShortenFQNames="true">
@@ -12,6 +11,7 @@
     <variable name="CSS_CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="$NAME$" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
 </templateSet>

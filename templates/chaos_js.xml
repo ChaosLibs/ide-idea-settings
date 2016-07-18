@@ -67,7 +67,6 @@
     <variable name="DEP_2_SHORT" expression="" defaultValue="DEP_2_NAME" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
 </templateSet>
