@@ -1,5 +1,5 @@
 <templateSet group="chaos.cmd">
-  <template name="cmdHead" value="@echo off&#10;:: ======================================= &#10;:: [$PROJECT_NAME$]&#10;:: ---------------------------------------" description="CMD Header" toReformat="false" toShortenFQNames="true">
+  <template name="header" value="@echo off&#10;:: ======================================= &#10;:: [$PROJECT_NAME$]&#10;:: ---------------------------------------" description="CMD Header" toReformat="false" toShortenFQNames="true">
     <variable name="PROJECT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="false" />
