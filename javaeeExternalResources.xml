@@ -5,6 +5,7 @@
     <resource url="http://www.chaosinc.de/chaos-base-tags" location="D:/projects/chaos/tag/core/src/META-INF/tld/chaos-base-tags.tld" />
     <resource url="http://www.chaosinc.de/chaos-xhtml-tags" location="D:/projects/chaos/tag/xhtml/src/META-INF/tld/chaos-xhtml-tags.tld" />
     <resource url="http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8ec6b4f6_hibernate-mapping-3.0.dtd" />
+    <resource url="http://www.mulesoft.org/schema/mule/ajax/3.4/mule-ajax.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/5cd58bc7_mule-ajax.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/core/3.4/mule.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/15b08ebd_mule.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/core/3.6/mule.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/fe4370fb_mule.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/email/3.4/mule-email.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/3ad3b699_mule-email.xsd" />
@@ -15,6 +16,7 @@
     <resource url="http://www.mulesoft.org/schema/mule/jersey/3.6/mule-jersey.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/6258d829_mule-jersey.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/quartz/3.4/mule-quartz.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/ea339b7d_mule-quartz.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/schemadoc/3.4/mule-schemadoc.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8005bf39_mule-schemadoc.xsd" />
+    <resource url="http://www.mulesoft.org/schema/mule/servlet/3.4/mule-servlet.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/1ea1d7f9_mule-servlet.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/sftp/3.4/mule-sftp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/fdc04265_mule-sftp.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/tcp/3.4/mule-tcp.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/1ef1e479_mule-tcp.xsd" />
     <resource url="http://www.springframework.org/schema/beans/spring-beans-3.1.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/a33d7b50_spring-beans-3.1.xsd" />
