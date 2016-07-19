@@ -11,7 +11,6 @@
     <variable name="CSS_CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="$NAME$" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
 </templateSet>
