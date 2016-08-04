@@ -15,7 +15,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="27d3dd27-bd0d-4fd4-a019-72ee50086d4e" name="Enigma:JBoss" url="http://server.enigma.yukawa.de:3333">
-        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/usr/local/server/JBoss/standalone" accessType="SFTP" passphrase="dfc4df92dfd9dfc9dfc2dfc3dfc9dfc2dfde" username="shade" keyPair="true">
+        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/usr/local/server/JBoss" accessType="SFTP" passphrase="dfc4df92dfd9dfc9dfc2dfc3dfc9dfc2dfde" username="shade" keyPair="true">
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
