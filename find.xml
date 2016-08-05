@@ -5,7 +5,7 @@
     <option name="fromCursor" value="false" />
     <option name="FIND_ORIGIN" value="entire_scope" />
     <option name="SEARCH_SCOPE" value="Project 'esb-uk-3pl'" />
-    <option name="FILE_MASK" value="*.xml" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -19,10 +19,10 @@
       <mask>*.properties</mask>
       <mask>*.scss</mask>
       <mask>*.sql</mask>
-      <mask>*.js</mask>
       <mask>*.ant.xml</mask>
       <mask>pom.xml</mask>
       <mask>*.xml</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
