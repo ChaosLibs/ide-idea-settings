@@ -18,7 +18,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
-      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
