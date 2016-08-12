@@ -1,0 +1,18 @@
+<application>
+  <component name="mail-config">
+    <option name="mailers">
+      <list>
+        <MailerConfig>
+          <option name="from" value="sdgsdgf" />
+          <option name="login" value="dfsdg" />
+          <option name="name" value="2" />
+          <option name="pass" value="dsfgdfg" />
+          <option name="popHost" value="" />
+          <option name="popLogin" value="" />
+          <option name="popPass" value="" />
+          <option name="popPort" value="" />
+        </MailerConfig>
+      </list>
+    </option>
+  </component>
+</application>
