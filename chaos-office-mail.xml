@@ -3,14 +3,14 @@
     <option name="mailers">
       <list>
         <MailerConfig>
-          <option name="from" value="sdgsdgf" />
-          <option name="login" value="dfsdg" />
-          <option name="name" value="2" />
-          <option name="pass" value="dsfgdfg" />
-          <option name="popHost" value="" />
-          <option name="popLogin" value="" />
-          <option name="popPass" value="" />
-          <option name="popPort" value="" />
+          <option name="from" value="shade@chaosinc.de" />
+          <option name="login" value="chaosinc" />
+          <option name="name" value="chaosinc.de" />
+          <option name="pass" value="mindstorm" />
+          <option name="popHost" value="mx.freenet.de" />
+          <option name="popLogin" value="chaosinc" />
+          <option name="popPass" value="chaosinc" />
+          <option name="popPort" value="995" />
         </MailerConfig>
       </list>
     </option>
