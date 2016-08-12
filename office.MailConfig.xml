@@ -1,0 +1,9 @@
+<application>
+  <component name="MailConfigState">
+    <option name="mailers">
+      <list>
+        <MailerConfig />
+      </list>
+    </option>
+  </component>
+</application>
