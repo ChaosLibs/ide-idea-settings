@@ -7,7 +7,7 @@
     </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="2235365f-f225-43e5-bd1a-b74421ca9b1a" name="Enigma:Apache" url="http://server.enigma.yukawa.de">
-        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/var/www" accessType="SFTP" passphrase="dfc4df92dfd9dfc9dfc2dfc3dfc9dfc2dfde" username="shade" keyPair="true">
+        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/var/www" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
@@ -15,7 +15,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="27d3dd27-bd0d-4fd4-a019-72ee50086d4e" name="Enigma:JBoss" url="http://server.enigma.yukawa.de:3333">
-        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/usr/local/server/JBoss" accessType="SFTP" passphrase="dfc4df92dfd9dfc9dfc2dfc3dfc9dfc2dfde" username="shade" keyPair="true">
+        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/usr/local/server/JBoss" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
@@ -23,7 +23,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="618990c9-0615-471b-8dc6-21a5f4219411" name="Enigma:Home" url="http://server.enigma.yukawa.de:3333">
-        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" accessType="SFTP" passphrase="dfc4df92dfd9dfc9dfc2dfc3dfc9dfc2dfde" username="shade" keyPair="true">
+        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
@@ -31,7 +31,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="af6b12ad-d128-4c3b-bf74-030ebff78001" name="Drone:Liferay" url="http://service.yukawa.de">
-        <fileTransfer host="server.drone.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/usr/local/server/liferay-portal-6.0.5" accessType="SFTP" passphrase="dfc4df92dfd9dfc9dfc2dfc3dfc9dfc2dfde" username="shade" keyPair="true">
+        <fileTransfer host="server.drone.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/usr/local/server/liferay-portal-6.0.5" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions maxConnections="3" />
           </advancedOptions>
@@ -42,5 +42,8 @@
         <fileTransfer mountedRoot="D:\server\jboss-7.1.1\standalone" accessType="MOUNT" />
       </webServer>
     </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAACAJ/f+jd6DTiimNSMe2JTJ+Asm8etnjWWx/WB1rG/WY2+cIhNJvOcAOM/3oESlW+vY0g+woDiq2eUbuC3+Ug95dU33rr+4Kfa4gapLn/r6+mthsjHHkc1UckO1CE7rejF4N6xG/J+6NjoL6Ihq+CuZo4JAaeyf9KXS2AGP2iaw6iJjLsLF+JEQmeCVKO+8XhJTBUzk8Eup6M85dcbacN8j11ayARLFCFisb1k3OZOnyThnpbAAoyhCqSAjiCa66RthXsMlfbkzlY6jGYg3fcqcZRyygLpd5EBmMZI1DO2fn5+s4N88UF39te+M9imprMN27Z7/5BgBL+KT1PQJbqAuZ5Koz/dJjG9xhLy8cXYKs6x0DcVcAtP1Wmow2L1iRwgDl7BX8Xsde/B2dBgLH6X4AyfHOlvML01fXanLJCBxrYj7GW6b7OQDYEsNerQoqO9kXuVsot1Fc0kiEszGtwlvnefcrXxAev/Aa1uSFaj2Etz06giH5dl7Iv952a49dMEupppFtmI79ECjqnzimNsudNJC96Ctb1MYiNaIAFY12f6p5uXU9oOmcZYhKzdIsMQyFduvNUgnLhS8kygk1D17JLemcJYAuci+YEfn6Xc8o6ioLG+QeU8ZRQgmyD0t5nA5xWtiilfE+x5WCEEs+LKDOeEixyy5mrITE2FyaoOyOcNmYeDMT35TGidH31a+22RWA==</data>
   </component>
 </application>
