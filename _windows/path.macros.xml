@@ -11,5 +11,7 @@
     <ignoredMacro name="PROJECT_OUT" />
     <ignoredMacro name="CHAIN_HOME" />
     <ignoredMacro name="SENCHA_TOUCH" />
+    <ignoredMacro name="JBOSS" />
+    <ignoredMacro name="LIFERAY6_HOME" />
   </component>
 </application>
