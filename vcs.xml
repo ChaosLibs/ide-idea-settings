@@ -38,4 +38,7 @@
     </option>
     <option name="cloneParentDir" value="D:\projects\vorwerk\uk-3pl\com.vorwerk.integration\integration-broker-parent" />
   </component>
+  <component name="VcsApplicationSettings">
+    <option name="SHOW_LST_WORD_DIFFERENCES" value="false" />
+  </component>
 </application>
