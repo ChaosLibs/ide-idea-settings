@@ -1,0 +1,5 @@
+<templateSet group="chaos.gradle">
+  <template name="graset" value="// ==================================================================================================================&#10;// SETTINGS : ${PROJECT_NAME.toUpperCase()} ${MODULE_TITLE}&#10;// ------------------------------------------------------------------------------------------------------------------&#10;#parse(&quot;File Header.java&quot;)&#10;ext {&#10;    TAG = &quot;[\\${settings}]&quot;&#10;}&#10;logger.lifecycle(&quot;$TAG $buildscript.sourceFile&quot;);&#10;//------------------------------------------------------------------------------------------------------------------" description="Gradle Settings" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>
