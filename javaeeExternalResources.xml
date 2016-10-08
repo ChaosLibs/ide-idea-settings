@@ -6,6 +6,8 @@
     <resource url="http://www.chaosinc.de/chaos-base-tags" location="D:/projects/chaos/tag/core/src/META-INF/tld/chaos-base-tags.tld" />
     <resource url="http://www.chaosinc.de/chaos-xhtml-tags" location="D:/projects/chaos/tag/xhtml/src/META-INF/tld/chaos-xhtml-tags.tld" />
     <resource url="http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8ec6b4f6_hibernate-mapping-3.0.dtd" />
+    <resource url="http://www.jboss.org/j2ee/dtd/jboss-web_5_0.dtd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/f4baaa14_jboss-web_5_0.dtd" />
+    <resource url="http://www.jboss.org/j2ee/dtd/service-ref_5_0.dtd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/407fa4f1_service-ref_5_0.dtd" />
     <resource url="http://www.mulesoft.org/schema/mule/ajax/3.4/mule-ajax.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/5cd58bc7_mule-ajax.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/core/3.4/mule.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/15b08ebd_mule.xsd" />
     <resource url="http://www.mulesoft.org/schema/mule/core/3.6/mule.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/fe4370fb_mule.xsd" />
