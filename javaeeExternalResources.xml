@@ -34,6 +34,7 @@
     <resource url="http://www.w3.org/2001/xml.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/9b192256_xml.xsd" />
     <resource url="http://www.zeroturnaround.com" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/20b583dc_rebel-2_1.xsd" />
     <resource url="http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/8ba66f82_application_7.xsd" />
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-app_3_0.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/27b25a47_web-app_3_0.xsd" />
     <resource url="urn:jboss:cli:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-cli_1_0.xsd" />
     <resource url="urn:jboss:domain:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-config_1_0.xsd" />
     <resource url="urn:jboss:domain:1.1" location="$JBOSS_HOME$/docs/schema/jboss-as-config_1_1.xsd" />
