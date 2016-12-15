@@ -3,11 +3,8 @@
     <option name="customScope" value="Project 'esb-uk-3pl'" />
     <option name="defaultScopeName" value="Project 'esb-uk-3pl'" />
     <option name="fromCursor" value="false" />
-    <option name="wholeWordsOnly" value="true" />
     <option name="FIND_ORIGIN" value="entire_scope" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'esb-uk-3pl'" />
-    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
