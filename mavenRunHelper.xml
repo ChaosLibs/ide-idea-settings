@@ -17,6 +17,9 @@
               <option name="commandLine" value="clean install" />
             </Goal>
             <Goal>
+              <option name="commandLine" value="install -P env-prod" />
+            </Goal>
+            <Goal>
               <option name="commandLine" value="compile" />
             </Goal>
             <Goal>
@@ -39,9 +42,6 @@
             </Goal>
             <Goal>
               <option name="commandLine" value="verify" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="install -P prod" />
             </Goal>
             <Goal>
               <option name="commandLine" value="jasmine:bdd" />
