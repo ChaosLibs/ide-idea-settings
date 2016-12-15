@@ -99,6 +99,7 @@
     <resource url="urn:jboss:messaging-deployment:1.0" location="$JBOSS_HOME$/docs/schema/jboss-as-messaging-deployment_1_0.xsd" />
     <resource url="urn:jboss:pojo:7.0" location="$JBOSS_HOME$/docs/schema/jboss-pojo_7_0.xsd" />
     <ignored-resource url="antlib:inc.chaos.ally.ant.log" />
+    <ignored-resource url="http://www.vorwerk.com/ESB/model/bydesign" />
     <ignored-resource url="http://www.w3.org/2005/xpath-functions" />
     <ignored-resource url="local" />
     <ignored-resource url="urn:jboss:domain:web:1.1" />
