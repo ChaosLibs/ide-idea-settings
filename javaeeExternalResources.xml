@@ -1,5 +1,6 @@
 <application>
   <component name="ExternalResourceManagerImpl">
+    <resource url="http://maven.apache.org/plugins/maven-assembly-plugin/component/1.1.2" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/2c089dc7_component-1.1.2.xsd" />
     <resource url="http://maven.apache.org/xsd/assembly-1.1.2.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/48b8f268_assembly-1.1.2.xsd" />
     <resource url="http://maven.apache.org/xsd/changes-1.0.0.xsd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/353a3aca_changes-1.0.0.xsd" />
     <resource url="http://plugins.intellij.net/plugin.dtd" location="D:/projects/_ide/.IntelliJIdea16/system/extResources/c6e15c82_plugin.dtd" />
