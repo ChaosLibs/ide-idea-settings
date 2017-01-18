@@ -3,6 +3,5 @@
     <variable name="NAMESPACE" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="REQUIRED" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>

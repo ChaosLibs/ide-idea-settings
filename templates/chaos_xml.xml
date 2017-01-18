@@ -2,16 +2,16 @@
   <template name="toDoXml" value="&lt;!-- @toDo [$user$] $END$ --&gt;" description="@toDo [...]" toReformat="false" toShortenFQNames="true">
     <variable name="user" expression="enum(&quot;ww&quot;, user())" defaultValue="ww" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="HTML" value="true" />
       <option name="XML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="&lt;! ==" value="&lt;!-- =========================================================================================================== --&gt;&#10;$END$" description="Xml Separator Line" toReformat="true" toShortenFQNames="false">
     <context>
       <option name="HTML" value="true" />
-      <option name="XML" value="true" />
       <option name="JSP" value="true" />
+      <option name="XML" value="true" />
     </context>
   </template>
 </templateSet>
