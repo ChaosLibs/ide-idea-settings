@@ -4,5 +4,6 @@
     <variable name="VARIABLE_2" expression="" defaultValue="value" alwaysStopAt="true" />
     <variable name="VARIABLE_3" expression="" defaultValue="role" alwaysStopAt="true" />
     <variable name="VARIABLE_4" expression="" defaultValue="feature" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
