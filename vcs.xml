@@ -42,6 +42,10 @@
           <option name="url" value="https://gitlab.com/vorwerk-esb/cult" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com/vorwerk-esb/cult.git" />
+          <option name="userName" value="vorwerk-dev" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\projects\vorwerk\" />
