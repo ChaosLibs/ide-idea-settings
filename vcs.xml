@@ -34,8 +34,16 @@
           <option name="url" value="http://localhost:8080/git/vorwerk/article-import.git" />
           <option name="userName" value="root" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com/vorwerk-esb/cult" />
+          <option name="userName" value="wilko" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/vorwerk-esb/cult" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\projects\vorwerk\uk-3pl\com.vorwerk.integration\integration-broker-parent" />
+    <option name="cloneParentDir" value="D:\projects\vorwerk\" />
   </component>
 </application>
