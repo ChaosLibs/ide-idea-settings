@@ -1,0 +1,22 @@
+<application>
+  <component name="SettingsState">
+    <option name="host" value="https://gitlab.com" />
+    <option name="token" value="MBmV5k6TJQ4J9KskccrG" />
+    <option name="projects">
+      <list>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/cult.git" />
+          <option name="name" value="cult" />
+          <option name="namespace" value="vorwerk-esb" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/cult.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/sivona.git" />
+          <option name="name" value="sivona" />
+          <option name="namespace" value="vorwerk-esb" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/sivona.git" />
+        </ProjectDto>
+      </list>
+    </option>
+  </component>
+</application>
