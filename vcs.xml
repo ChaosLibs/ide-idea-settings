@@ -2,21 +2,13 @@
   <component name="GitRememberedInputs">
     <option name="visitedUrls">
       <list>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/blutkind/cors-proxy-browser.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/dkraczkowski/js.class" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
+         <UrlAndUserName>
           <option name="url" value="http://localhost:8080/vorwerk/sap-bydesign.git" />
-          <option name="userName" value="" />
+          <option name="userName" value="root" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://localhost:8080/vorwerk/broker-uk" />
-          <option name="userName" value="" />
+          <option name="userName" value="root" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://localhost:8080/git/vorwerk/sap-bydesign.git" />
@@ -25,10 +17,6 @@
         <UrlAndUserName>
           <option name="url" value="http://localhost:8080/git/vorwerk/broker-uk.git" />
           <option name="userName" value="root" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/requirejs/almond" />
-          <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://localhost:8080/git/vorwerk/article-import.git" />
@@ -40,7 +28,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://gitlab.com/vorwerk-esb/cult" />
-          <option name="userName" value="" />
+          <option name="userName" value="wilko" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://gitlab.com/vorwerk-esb/cult.git" />
@@ -48,11 +36,11 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="git@gitlab.com:vorwerk-esb/cult.git" />
-          <option name="userName" value="" />
+          <option name="userName" value="wilko" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://gitlab.com/vorwerk-esb/cult.git" />
-          <option name="userName" value="" />
+          <option name="userName" value="wilko" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://gitlab.com/vorwerk-esb/sivona.git" />
@@ -60,7 +48,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://gitlab.com/vorwerk-esb/sivona.git" />
-          <option name="userName" value="" />
+          <option name="userName" value="wilko" />
         </UrlAndUserName>
       </list>
     </option>
