@@ -17,9 +17,6 @@
               <option name="commandLine" value="clean install" />
             </Goal>
             <Goal>
-              <option name="commandLine" value="install -P env-prod" />
-            </Goal>
-            <Goal>
               <option name="commandLine" value="install -P env-demo" />
             </Goal>
             <Goal>
