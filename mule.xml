@@ -1,0 +1,7 @@
+<application>
+  <component name="MuleSdk">
+    <mule-sdk>
+      <mule-home>D:/server/mule-standalone-3.8.1</mule-home>
+    </mule-sdk>
+  </component>
+</application>
