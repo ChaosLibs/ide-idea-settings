@@ -2,7 +2,7 @@
   <component name="GitRememberedInputs">
     <option name="visitedUrls">
       <list>
-         <UrlAndUserName>
+        <UrlAndUserName>
           <option name="url" value="http://localhost:8080/vorwerk/sap-bydesign.git" />
           <option name="userName" value="root" />
         </UrlAndUserName>
@@ -49,6 +49,10 @@
         <UrlAndUserName>
           <option name="url" value="https://gitlab.com/vorwerk-esb/sivona.git" />
           <option name="userName" value="wilko" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.0.33:8080/git/vorwerk/uk-3pl.git" />
+          <option name="userName" value="root" />
         </UrlAndUserName>
       </list>
     </option>
