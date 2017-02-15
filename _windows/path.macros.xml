@@ -6,11 +6,6 @@
     <macro name="MVN_REPOS" value="D:/projects/_lib/jars" />
     <macro name="TOOLS_HOME" value="D:/tools" />
     <ignoredMacro name="CHAOS_HOME" />
-    <ignoredMacro name="IDEA_HOME" />
-    <ignoredMacro name="PROJECT_OUT" />
-    <ignoredMacro name="CHAIN_HOME" />
-    <ignoredMacro name="SENCHA_TOUCH" />
-    <ignoredMacro name="JBOSS" />
-    <ignoredMacro name="LIFERAY6_HOME" />
+    <ignoredMacro name="MULE_HOME" />
   </component>
 </application>
