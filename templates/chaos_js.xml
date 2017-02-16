@@ -54,8 +54,8 @@
     <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="PARA" expression="" defaultValue="&quot;arguments&quot;" alwaysStopAt="true" />
     <context>
-      <option name="JS_EXPRESSION" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="scopeDepend" value="/* global window, console, exports, require */&#10;(function (factory) {&#10;    'use strict';&#10;    //noinspection JSUnresolvedVariable&#10;    if (typeof define === 'function' &amp;&amp; define.amd) {&#10;        // Register as an anonymous AMD module:&#10;        define(['$MOD_1_SHORT$', '$DEP_2_MODULE$'], factory);&#10;    } else if (typeof exports === 'object') {&#10;        // Node/CommonJS:&#10;        factory(            &#10;            require(&quot;$MOD_1_SHORT$&quot;),&#10;            require(&quot;$DEP_2_MODULE$&quot;)            &#10;        );&#10;    } else {&#10;        // Browser globals:&#10;        factory(window.$MOD_1_NAME$, window.$DEP_2_NAME$);&#10;    }&#10;}(function($MOD_1_JS$$DEP_2_SHORT$) {&#10;    'use strict';&#10;    $END$&#10;}));" description="Scope Dependency Frameworks [chaos.js]" toReformat="true" toShortenFQNames="true">
