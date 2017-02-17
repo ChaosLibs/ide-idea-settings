@@ -11,5 +11,6 @@
     <ignoreAction name="Java/Comments/Replace with End Of Line Comment" />
     <ignoreAction name="JavaScript/Comments/Replace With C-Style Comment" />
     <ignoreAction name="Language Injection/Edit Injected Fragment" />
+    <ignoreAction name="Groovy/Declaration/Groovy Introduce local variable" />
   </component>
 </application>
