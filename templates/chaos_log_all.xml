@@ -4,12 +4,12 @@
     <variable name="CLS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="LOG_CLS" expression="rightSideType()" defaultValue="&quot;Logger&quot;" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="COMPLETION" value="false" />
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
     </context>
   </template>
 </templateSet>

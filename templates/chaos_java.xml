@@ -27,18 +27,18 @@
   <template name="//==" value="    //==================================================================================================================&#10;    //                                         $SECTION$&#10;    //------------------------------------------------------------------------------------------------------------------&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="SECTION" expression="" defaultValue="&quot;Getter / Setter&quot;" alwaysStopAt="true" />
     <context>
-      <option name="ASPECTJ" value="false" />
-      <option name="XML" value="false" />
+      <option name="GROOVY_STATEMENT" value="true" />
       <option name="JSP" value="false" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_STATEMENT" value="true" />
       <option name="CSS" value="false" />
-      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="ASPECTJ" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
-      <option name="HTML" value="false" />
       <option name="GROOVY_DECLARATION" value="true" />
-      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
     </context>
   </template>
   <template name="clsShort" value="getClass().getSimpleName()" description="Class Short" toReformat="true" toShortenFQNames="true">
