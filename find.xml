@@ -3,9 +3,11 @@
     <option name="customScope" value="Project 'esb-uk-3pl'" />
     <option name="defaultScopeName" value="Project 'esb-uk-3pl'" />
     <option name="fromCursor" value="false" />
+    <option name="wholeWordsOnly" value="true" />
     <option name="FIND_ORIGIN" value="entire_scope" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'esb-uk-3pl'" />
-    <option name="FILE_MASK" value="pom.xml" />
+    <option name="FILE_MASK" value="*.xml" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -20,10 +22,10 @@
       <mask>*.scss</mask>
       <mask>*.sql</mask>
       <mask>*.ant.xml</mask>
-      <mask>*.xml</mask>
       <mask>*.js</mask>
       <mask>*.gradle</mask>
       <mask>pom.xml</mask>
+      <mask>*.xml</mask>
     </recentFileMasks>
   </component>
 </application>
