@@ -23,12 +23,6 @@
           <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/core.git" />
         </ProjectDto>
         <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/uk-3pl.git" />
-          <option name="name" value="country-uk" />
-          <option name="namespace" value="vorwerk-esb" />
-          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/uk-3pl.git" />
-        </ProjectDto>
-        <ProjectDto>
           <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/cult.git" />
           <option name="name" value="cult" />
           <option name="namespace" value="vorwerk-esb" />
