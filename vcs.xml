@@ -94,6 +94,14 @@
           <option name="url" value="http://gitlab.com/vorwerk-uk/3pl.git" />
           <option name="userName" value="vorwerk-ww" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/vorwerk-esb/integration.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com/vorwerk-esb/integration.git" />
+          <option name="userName" value="vorwerk-ww" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\projects\vorwerk\uk-3pl-git" />
