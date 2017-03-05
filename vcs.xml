@@ -66,6 +66,14 @@
           <option name="url" value="https://gitlab.com/chaos-meta/babel.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com/chaos-meta/mps.git" />
+          <option name="userName" value="chaos-babel" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/chaos-meta/mps.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\projects" />

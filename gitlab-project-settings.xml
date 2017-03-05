@@ -11,6 +11,12 @@
           <option name="sshUrl" value="git@gitlab.com:chaos-meta/babel.git" />
         </ProjectDto>
         <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/chaos-meta/mps.git" />
+          <option name="name" value="mps" />
+          <option name="namespace" value="chaos-meta" />
+          <option name="sshUrl" value="git@gitlab.com:chaos-meta/mps.git" />
+        </ProjectDto>
+        <ProjectDto>
           <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/cult.git" />
           <option name="name" value="cult" />
           <option name="namespace" value="vorwerk-esb" />
