@@ -16,30 +16,6 @@
           <option name="namespace" value="chaos-meta" />
           <option name="sshUrl" value="git@gitlab.com:chaos-meta/mps.git" />
         </ProjectDto>
-        <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/core.git" />
-          <option name="name" value="core" />
-          <option name="namespace" value="vorwerk-esb" />
-          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/core.git" />
-        </ProjectDto>
-        <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/cult.git" />
-          <option name="name" value="cult" />
-          <option name="namespace" value="vorwerk-esb" />
-          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/cult.git" />
-        </ProjectDto>
-        <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/integration.git" />
-          <option name="name" value="integration" />
-          <option name="namespace" value="vorwerk-esb" />
-          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/integration.git" />
-        </ProjectDto>
-        <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/sivona.git" />
-          <option name="name" value="sivona" />
-          <option name="namespace" value="vorwerk-esb" />
-          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/sivona.git" />
-        </ProjectDto>
       </list>
     </option>
   </component>
