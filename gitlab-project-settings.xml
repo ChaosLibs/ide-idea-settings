@@ -1,20 +1,44 @@
 <application>
   <component name="SettingsState">
     <option name="host" value="https://gitlab.com" />
-    <option name="token" value="wm8L4ztWfNoGGm5zJ-m-" />
+    <option name="token" value="mjWKxXJSpBzWjqDox8vo" />
     <option name="projects">
       <list>
         <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/chaos-meta/babel.git" />
-          <option name="name" value="babel" />
-          <option name="namespace" value="chaos-meta" />
-          <option name="sshUrl" value="git@gitlab.com:chaos-meta/babel.git" />
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/core.git" />
+          <option name="name" value="core" />
+          <option name="namespace" value="vorwerk-esb" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/core.git" />
         </ProjectDto>
         <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/chaos-meta/mps.git" />
-          <option name="name" value="mps" />
-          <option name="namespace" value="chaos-meta" />
-          <option name="sshUrl" value="git@gitlab.com:chaos-meta/mps.git" />
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/cult.git" />
+          <option name="name" value="cult" />
+          <option name="namespace" value="vorwerk-esb" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/cult.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/esb-console.git" />
+          <option name="name" value="esb-console" />
+          <option name="namespace" value="vorwerk-esb" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/esb-console.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/integration.git" />
+          <option name="name" value="integration" />
+          <option name="namespace" value="vorwerk-esb" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/integration.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/sivona.git" />
+          <option name="name" value="sivona" />
+          <option name="namespace" value="vorwerk-esb" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/sivona.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-uk/esb-uk-3pl.git" />
+          <option name="name" value="esb-uk-3pl" />
+          <option name="namespace" value="vorwerk-uk" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-uk/esb-uk-3pl.git" />
         </ProjectDto>
       </list>
     </option>
