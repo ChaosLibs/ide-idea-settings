@@ -5,12 +5,6 @@
     <option name="projects">
       <list>
         <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/core.git" />
-          <option name="name" value="core" />
-          <option name="namespace" value="vorwerk-esb" />
-          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/core.git" />
-        </ProjectDto>
-        <ProjectDto>
           <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/cult.git" />
           <option name="name" value="cult" />
           <option name="namespace" value="vorwerk-esb" />
@@ -23,10 +17,10 @@
           <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/esb-console.git" />
         </ProjectDto>
         <ProjectDto>
-          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/integration.git" />
-          <option name="name" value="integration" />
+          <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/esb-core.git" />
+          <option name="name" value="esb-core" />
           <option name="namespace" value="vorwerk-esb" />
-          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/integration.git" />
+          <option name="sshUrl" value="git@gitlab.com:vorwerk-esb/esb-core.git" />
         </ProjectDto>
         <ProjectDto>
           <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/sivona.git" />
