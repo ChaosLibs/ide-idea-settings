@@ -1,9 +1,21 @@
 <application>
   <component name="SettingsState">
     <option name="host" value="https://gitlab.com" />
-    <option name="token" value="mjWKxXJSpBzWjqDox8vo" />
+    <option name="token" value="wxz1kQZWAeoZ3VCM5qKN" />
     <option name="projects">
       <list>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/chaos-meta/babel.git" />
+          <option name="name" value="babel" />
+          <option name="namespace" value="chaos-meta" />
+          <option name="sshUrl" value="git@gitlab.com:chaos-meta/babel.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="https://gitlab.com/chaos-meta/mps.git" />
+          <option name="name" value="mps" />
+          <option name="namespace" value="chaos-meta" />
+          <option name="sshUrl" value="git@gitlab.com:chaos-meta/mps.git" />
+        </ProjectDto>
         <ProjectDto>
           <option name="httpUrl" value="https://gitlab.com/vorwerk-esb/cult.git" />
           <option name="name" value="cult" />
