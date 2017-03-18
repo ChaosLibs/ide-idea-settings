@@ -30,7 +30,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="af6b12ad-d128-4c3b-bf74-030ebff78001" name="shade@drone" url="http://service.yukawa.de">
+      <webServer id="af6b12ad-d128-4c3b-bf74-030ebff78001" name="shade@drone" url="http://server.drone.yukawa.de:3333">
         <fileTransfer host="server.drone.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions maxConnections="3" />
