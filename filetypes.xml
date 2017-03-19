@@ -20,6 +20,7 @@
       <mapping ext="marker" type="PLAIN_TEXT" />
       <mapping ext="failed" type="PLAIN_TEXT" />
       <mapping ext="index" type="PLAIN_TEXT" />
+      <mapping ext="deployed" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="Properties" />
       <removed_mapping ext="rb" type="Ruby" />
       <mapping ext="jaxws" type="XML" />
