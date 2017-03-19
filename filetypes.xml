@@ -6,6 +6,7 @@
       <mapping pattern="*-init.bat" type="Bat" />
       <mapping pattern="*.gradle.txt" type="Groovy" />
       <mapping ext="scssc" type="Native" />
+      <mapping pattern=".viminfo" type="PLAIN_TEXT" />
       <mapping pattern="activemq" type="PLAIN_TEXT" />
       <mapping pattern="test-sevice" type="PLAIN_TEXT" />
       <mapping pattern="mule" type="PLAIN_TEXT" />
