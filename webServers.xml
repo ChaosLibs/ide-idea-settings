@@ -5,39 +5,5 @@
         <option name="hostKeyCheckingLevel" value="NO" />
       </SftpAdvancedOptions>
     </sftpAdvancedGlobalOptions>
-    <option name="servers">
-      <webServer id="2235365f-f225-43e5-bd1a-b74421ca9b1a" name="Enigma:Apache" url="http://server.enigma.yukawa.de">
-        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/var/www" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions maxConnections="3" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="618990c9-0615-471b-8dc6-21a5f4219411" name="Enigma:Home" url="http://server.enigma.yukawa.de:3333">
-        <fileTransfer host="server.enigma.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions maxConnections="3" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="af6b12ad-d128-4c3b-bf74-030ebff78001" name="shade@drone" url="http://server.drone.yukawa.de:3333">
-        <fileTransfer host="server.drone.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions keepAliveTimeout="600000" maxConnections="3" muteSftpMessages="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="4164e89d-c104-45e7-9546-080684278695" name="server@drone" url="http://server.drone.yukawa.de:3333">
-        <fileTransfer host="server.drone.yukawa.de" port="22" privateKey="D:\projects\_ide\.ssh\shade.idea" rootFolder="/home/Server" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions keepAliveTimeout="600000" maxConnections="3" muteSftpMessages="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-    </option>
   </component>
 </application>
