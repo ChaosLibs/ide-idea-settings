@@ -154,8 +154,12 @@
           <option name="url" value="ssh://git@vcs.chaosinc.eu:2233/chaos/site.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="file:///T:/temp/svn-git/desk.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="T:\temp\svn-dummy" />
+    <option name="cloneParentDir" value="T:\temp\svn-mig" />
   </component>
 </application>
