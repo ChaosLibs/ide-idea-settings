@@ -12,6 +12,7 @@
       <mapping pattern="mule" type="PLAIN_TEXT" />
       <mapping pattern="sshd_config" type="PLAIN_TEXT" />
       <mapping pattern=".viminfo" type="PLAIN_TEXT" />
+      <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="lst" type="PLAIN_TEXT" />
