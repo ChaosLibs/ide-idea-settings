@@ -6,7 +6,9 @@
     <macro name="MPS_HOME" value="D:/tools/mps" />
     <macro name="MVN_REPOS" value="D:/projects/_lib/jars" />
     <macro name="TOOLS_HOME" value="D:/tools" />
+    <macro name="WILDFLY_HOME" value="D:/server/wildfly-10.1.0.Final" />
     <ignoredMacro name="CHAOS_HOME" />
     <ignoredMacro name="MULE_HOME" />
+    <ignoredMacro name="PROJECT_OUT" />
   </component>
 </application>
