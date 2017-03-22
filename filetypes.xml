@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="tomcat8" type="Bash" />
       <mapping pattern="launcher" type="Bash" />
       <mapping pattern=".profile" type="Bash" />
       <mapping pattern="*-init.bat" type="Bat" />
