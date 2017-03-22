@@ -4,6 +4,7 @@
       <mapping pattern="tomcat8" type="Bash" />
       <mapping pattern="launcher" type="Bash" />
       <mapping pattern=".profile" type="Bash" />
+      <mapping ext="local" type="Bash" />
       <mapping pattern="*-init.bat" type="Bat" />
       <mapping pattern="*.gradle.txt" type="Groovy" />
       <mapping ext="scssc" type="Native" />
