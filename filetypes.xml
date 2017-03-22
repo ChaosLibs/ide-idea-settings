@@ -26,6 +26,7 @@
       <mapping ext="dodeploy" type="PLAIN_TEXT" />
       <mapping ext="failed" type="PLAIN_TEXT" />
       <mapping ext="index" type="PLAIN_TEXT" />
+      <mapping ext="pid" type="PLAIN_TEXT" />
       <mapping ext="deployed" type="PLAIN_TEXT" />
       <mapping ext="074" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="Properties" />
