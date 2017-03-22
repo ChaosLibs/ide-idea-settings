@@ -21,6 +21,7 @@
       <mapping ext="gradlr" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="avro" type="PLAIN_TEXT" />
+      <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="marker" type="PLAIN_TEXT" />
       <mapping ext="dodeploy" type="PLAIN_TEXT" />
       <mapping ext="failed" type="PLAIN_TEXT" />
