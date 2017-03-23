@@ -1,6 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="gradlew" type="Bash" />
+      <mapping pattern="tomcat" type="Bash" />
+      <mapping pattern="tomcat8" type="Bash" />
+      <mapping pattern="launcher" type="Bash" />
+      <mapping pattern=".profile" type="Bash" />
+      <mapping ext="local" type="Bash" />
       <mapping pattern="*.gradle.txt" type="Groovy" />
       <mapping ext="scssc" type="Native" />
       <mapping pattern="activemq" type="PLAIN_TEXT" />
@@ -32,11 +38,6 @@
       <mapping ext="jaxws" type="XML" />
       <mapping ext="xconf" type="XML" />
       <mapping pattern="*-init.bat" type="Bat" />
-      <mapping ext="local" type="Bash" />
-      <mapping pattern=".profile" type="Bash" />
-      <mapping pattern="launcher" type="Bash" />
-      <mapping pattern="tomcat" type="Bash" />
-      <mapping pattern="tomcat8" type="Bash" />
     </extensionMap>
   </component>
 </application>
