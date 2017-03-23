@@ -1,42 +1,42 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="tomcat" type="Bash" />
-      <mapping pattern="tomcat8" type="Bash" />
-      <mapping pattern="launcher" type="Bash" />
-      <mapping pattern=".profile" type="Bash" />
-      <mapping ext="local" type="Bash" />
-      <mapping pattern="*-init.bat" type="Bat" />
       <mapping pattern="*.gradle.txt" type="Groovy" />
       <mapping ext="scssc" type="Native" />
-      <mapping pattern="activemq" type="PLAIN_TEXT" />
-      <mapping pattern="tomcat-8" type="PLAIN_TEXT" />
-      <mapping pattern="old-tf-service" type="PLAIN_TEXT" />
-      <mapping pattern="test-sevice" type="PLAIN_TEXT" />
       <mapping pattern="mule" type="PLAIN_TEXT" />
-      <mapping pattern="sshd_config" type="PLAIN_TEXT" />
+      <mapping pattern="old-tf-service" type="PLAIN_TEXT" />
       <mapping pattern=".viminfo" type="PLAIN_TEXT" />
+      <mapping pattern="sshd_config" type="PLAIN_TEXT" />
       <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
+      <mapping pattern="activemq" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping pattern="tomcat-8" type="PLAIN_TEXT" />
+      <mapping pattern="test-sevice" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="lst" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="temp" type="PLAIN_TEXT" />
       <mapping ext="gradlr" type="PLAIN_TEXT" />
+      <mapping ext="index" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="avro" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="marker" type="PLAIN_TEXT" />
       <mapping ext="dodeploy" type="PLAIN_TEXT" />
       <mapping ext="failed" type="PLAIN_TEXT" />
-      <mapping ext="index" type="PLAIN_TEXT" />
       <mapping ext="pid" type="PLAIN_TEXT" />
       <mapping ext="deployed" type="PLAIN_TEXT" />
       <mapping ext="074" type="PLAIN_TEXT" />
+      <removed_mapping ext="rb" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="Properties" />
-      <removed_mapping ext="rb" type="Ruby" />
       <mapping ext="jaxws" type="XML" />
       <mapping ext="xconf" type="XML" />
+      <mapping pattern="*-init.bat" type="Bat" />
+      <mapping ext="local" type="Bash" />
+      <mapping pattern=".profile" type="Bash" />
+      <mapping pattern="launcher" type="Bash" />
+      <mapping pattern="tomcat" type="Bash" />
+      <mapping pattern="tomcat8" type="Bash" />
     </extensionMap>
   </component>
 </application>

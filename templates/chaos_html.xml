@@ -1,9 +1,9 @@
 <templateSet group="chaos.html">
   <template name="table" value="&lt;table&gt;&#10;    &lt;tbody&gt;&#10;        &lt;tr&gt;               &#10;            &lt;td&gt;$END$&lt;/td&gt;&#10;        &lt;/tr&gt;&#10;    &lt;/tbody&gt;&#10;&lt;/table&gt;" description="HTML Table" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
       <option name="HTML" value="true" />
       <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="JSP" value="true" />
       <option name="XSL_TEXT" value="true" />
     </context>

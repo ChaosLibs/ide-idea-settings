@@ -2,8 +2,8 @@
   <template name="toDoXml" value="&lt;!-- @toDo [$user$] $END$ --&gt;" description="@toDo [...]" toReformat="false" toShortenFQNames="true">
     <variable name="user" expression="enum(&quot;ww&quot;, user())" defaultValue="ww" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
       <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="XML" value="true" />
     </context>
   </template>
