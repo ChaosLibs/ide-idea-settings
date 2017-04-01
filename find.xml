@@ -5,7 +5,7 @@
     <option name="fromCursor" value="false" />
     <option name="FIND_ORIGIN" value="entire_scope" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="pom.xml" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -20,13 +20,16 @@
       <mask>*.scss</mask>
       <mask>*.sql</mask>
       <mask>*.ant.xml</mask>
-      <mask>*.js</mask>
       <mask>*.gradle</mask>
       <mask>*.xml</mask>
       <mask>.xml</mask>
       <mask>p.xml</mask>
       <mask>po.xml</mask>
       <mask>pom.xml</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
